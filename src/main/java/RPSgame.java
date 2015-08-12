@@ -23,6 +23,8 @@ public class RPSgame {
       result = "User Wins";
     } else if (computerGuess == "Rock"){
       result = "Computer Wins";
+    } else {
+      result = "It's a Tie";
     }
     }
     return result;
