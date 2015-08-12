@@ -6,13 +6,10 @@ import spark.template.velocity.VelocityTemplateEngine;
 import static spark.Spark.*;
 
 public class RPSgame {
-  public static void main (String[] args){
+  public static void main (String[] args) {
 
-    String result;
-    Random myRandomGenerator = new Random();
-    Integer randomNumber = myRandomGenerator.nextInt(2);
-    String computerGuess = makeComputerGuess(randomNumber);
     String layout = "templates/layout.vtl";
+
 
     get("/", (request, response) -> {
       Map<String, Object> model = new HashMap<String, Object>();
@@ -24,17 +21,27 @@ public class RPSgame {
       Map<String, Object> model = new HashMap<String,Object>();
       model.put("template", "templates/detector.vtl");
 
-      String userInput = request.queryParams("user input");
+      String userGuess = request.queryParams("user input");
+      
+      Random myRandomGenerator = new Random();
+      Integer randomNumber = myRandomGenerator.nextInt(2);
+      String computerGuess = makeComputerGuess(randomNumber);
+      String result = checkWinner(userGuess, computerGuess);
 
 
-      String checkWinner = checkWinner(userInput, computerGuess);
+
+
+
+      String checkWinner = checkWinner(userGuess, computerGuess);
       return new ModelAndView(model, layout);
     }, new VelocityTemplateEngine());
 
   }
 
 
-  public static String makeComputerGuess(Integer randomNumber){
+  public static String makeComputerGuess(Integer randomNumber) {
+    String computerGuess;
+
     if (randomNumber == 0){
       computerGuess = "Rock";
     } else if (randomNumber == 1) {
@@ -48,7 +55,7 @@ public class RPSgame {
   }
 
   public static String checkWinner (String userGuess, String computerGuess){
-
+    String result;
     if (userGuess == "Rock"){
 
       if (computerGuess == "Scissors"){
@@ -83,3 +90,8 @@ public class RPSgame {
     return result;
   }
 }
+
+// RPSgame.checkWinner()
+
+//  RPSgame myGame = new RPSgame();
+// myGame.checkWinner()
