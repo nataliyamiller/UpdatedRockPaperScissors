@@ -1,44 +1,42 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="RPSGameFLTest" tests="2" skipped="0" failures="2" errors="0" timestamp="2015-08-12T22:12:39" hostname="epicodus-107.local" time="94.331">
+<testsuite name="RPSGameFLTest" tests="2" skipped="0" failures="2" errors="0" timestamp="2015-08-12T23:16:49" hostname="epicodus-107.local" time="92.776">
   <properties/>
-  <testcase name="rootTest" classname="RPSGameFLTest" time="47.215">
-    <failure message="org.openqa.selenium.WebDriverException: Failed to connect to binary FirefoxBinary(/Applications/Firefox.app/Contents/MacOS/firefox-bin) on port 7055; process output follows: &#10;1839&#9;addons.xpi&#9;DEBUG&#9;checkForChanges&#10;1439417561839&#9;addons.xpi&#9;DEBUG&#9;Loaded add-on state from prefs: {&quot;app-profile&quot;:{&quot;fxdriver@googlecode.com&quot;:{&quot;d&quot;:&quot;/var/folders/zz/zyxvpxvq6csfxvn_n00000s4000069/T/anonymous835883968194593064webdriver-profile/extensions/fxdriver@googlecode.com&quot;,&quot;e&quot;:true,&quot;v&quot;:&quot;2.44.0&quot;,&quot;st&quot;:1439417559000,&quot;mt&quot;:1439417559000}},&quot;app-global&quot;:{&quot;{972ce4c6-7e08-4474-a285-3208198ce6fd}&quot;:{&quot;d&quot;:&quot;/Applications/Firefox.app/Contents/Resources/browser/extensions/{972ce4c6-7e08-4474-a285-3208198ce6fd}&quot;,&quot;e&quot;:true,&quot;v&quot;:&quot;40.0&quot;,&quot;st&quot;:1438968590000,&quot;mt&quot;:1438966083000}}}&#10;1439417561839&#9;addons.xpi&#9;DEBUG&#9;getModTime: Recursive scan of fxdriver@googlecode.com&#10;1439417561841&#9;addons.xpi&#9;DEBUG&#9;getModTime: Recursive scan of {972ce4c6-7e08-4474-a285-3208198ce6fd}&#10;1439417561842&#9;addons.xpi&#9;DEBUG&#9;getInstallState changed: false, state: {&quot;app-profile&quot;:{&quot;fxdriver@googlecode.com&quot;:{&quot;d&quot;:&quot;/var/folders/zz/zyxvpxvq6csfxvn_n00000s4000069/T/anonymous835883968194593064webdriver-profile/extensions/fxdriver@googlecode.com&quot;,&quot;e&quot;:true,&quot;v&quot;:&quot;2.44.0&quot;,&quot;st&quot;:1439417559000,&quot;mt&quot;:1439417559000}},&quot;app-global&quot;:{&quot;{972ce4c6-7e08-4474-a285-3208198ce6fd}&quot;:{&quot;d&quot;:&quot;/Applications/Firefox.app/Contents/Resources/browser/extensions/{972ce4c6-7e08-4474-a285-3208198ce6fd}&quot;,&quot;e&quot;:true,&quot;v&quot;:&quot;40.0&quot;,&quot;st&quot;:1438968590000,&quot;mt&quot;:1438966083000}}}&#10;1439417561842&#9;addons.xpi&#9;DEBUG&#9;No changes found&#10;1439417561846&#9;addons.manager&#9;DEBUG&#9;Registering shutdown blocker for XPIProvider&#10;1439417561847&#9;addons.manager&#9;DEBUG&#9;Provider finished startup: XPIProvider&#10;1439417561847&#9;addons.manager&#9;DEBUG&#9;Starting provider: LightweightThemeManager&#10;1439417561847&#9;addons.manager&#9;DEBUG&#9;Registering shutdown blocker for LightweightThemeManager&#10;1439417561847&#9;addons.manager&#9;DEBUG&#9;Provider finished startup: LightweightThemeManager&#10;1439417561848&#9;addons.manager&#9;DEBUG&#9;Starting provider: GMPProvider&#10;1439417561850&#9;addons.manager&#9;DEBUG&#9;Registering shutdown blocker for GMPProvider&#10;1439417561851&#9;addons.manager&#9;DEBUG&#9;Provider finished startup: GMPProvider&#10;1439417561851&#9;addons.manager&#9;DEBUG&#9;Starting provider: PluginProvider&#10;1439417561851&#9;addons.manager&#9;DEBUG&#9;Registering shutdown blocker for PluginProvider&#10;1439417561851&#9;addons.manager&#9;DEBUG&#9;Provider finished startup: PluginProvider&#10;1439417561851&#9;addons.manager&#9;DEBUG&#9;Completed startup sequence&#10;1439417561873&#9;addons.xpi-utils&#9;DEBUG&#9;Starting async load of XPI database /var/folders/zz/zyxvpxvq6csfxvn_n00000s4000069/T/anonymous835883968194593064webdriver-profile/extensions.json&#10;*** Blocklist::_loadBlocklistFromFile: blocklist is disabled&#10;1439417561970&#9;addons.manager&#9;DEBUG&#9;Starting provider: &lt;unnamed-provider&gt;&#10;1439417561970&#9;addons.manager&#9;DEBUG&#9;Registering shutdown blocker for &lt;unnamed-provider&gt;&#10;1439417561970&#9;addons.manager&#9;DEBUG&#9;Provider finished startup: &lt;unnamed-provider&gt;&#10;1439417562064&#9;addons.xpi-utils&#9;DEBUG&#9;Async JSON file read took 0 MS&#10;1439417562064&#9;addons.xpi-utils&#9;DEBUG&#9;Finished async read of XPI database, parsing...&#10;1439417562065&#9;addons.xpi-utils&#9;DEBUG&#9;Successfully read XPI database&#10;1439417562128&#9;addons.manager&#9;DEBUG&#9;Starting provider: PreviousExperimentProvider&#10;1439417562128&#9;addons.manager&#9;DEBUG&#9;Registering shutdown blocker for PreviousExperimentProvider&#10;1439417562128&#9;addons.manager&#9;DEBUG&#9;Provider finished startup: PreviousExperimentProvider&#10;JavaScript error: file:///var/folders/zz/zyxvpxvq6csfxvn_n00000s4000069/T/anonymous835883968194593064webdriver-profile/extensions/fxdriver@googlecode.com/components/driver-component.js, line 11487: TypeError: this.server_ is undefined&#10;JavaScript error: chrome://fxdriver/content/server.js, line 38: NS_ERROR_XPC_CI_RETURNED_FAILURE: Component returned failure code: 0x80570015 (NS_ERROR_XPC_CI_RETURNED_FAILURE) [nsIJSCID.createInstance]&#10;JavaScript error: resource:///modules/UITour.jsm, line 385: TypeError: window is null&#10;JavaScript error: resource:///modules/UITour.jsm, line 385: TypeError: window is null&#10;JavaScript error: resource:///modules/UITour.jsm, line 385: TypeError: window is null&#10;JavaScript error: resource:///modules/UITour.jsm, line 385: TypeError: window is null&#10;JavaScript error: resource:///modules/UITour.jsm, line 385: TypeError: window is null&#10;&#10;Build info: version: '2.44.0', revision: '76d78cf323ce037c5f92db6c1bba601c2ac43ad8', time: '2014-10-23 13:11:40'&#10;System info: host: 'epicodus-107.local', ip: '192.168.1.56', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.10.2', java.version: '1.8.0_51'&#10;Driver info: driver.version: FirefoxDriver" type="org.openqa.selenium.WebDriverException">org.openqa.selenium.WebDriverException: Failed to connect to binary FirefoxBinary(/Applications/Firefox.app/Contents/MacOS/firefox-bin) on port 7055; process output follows: 
-1839	addons.xpi	DEBUG	checkForChanges
-1439417561839	addons.xpi	DEBUG	Loaded add-on state from prefs: {&quot;app-profile&quot;:{&quot;fxdriver@googlecode.com&quot;:{&quot;d&quot;:&quot;/var/folders/zz/zyxvpxvq6csfxvn_n00000s4000069/T/anonymous835883968194593064webdriver-profile/extensions/fxdriver@googlecode.com&quot;,&quot;e&quot;:true,&quot;v&quot;:&quot;2.44.0&quot;,&quot;st&quot;:1439417559000,&quot;mt&quot;:1439417559000}},&quot;app-global&quot;:{&quot;{972ce4c6-7e08-4474-a285-3208198ce6fd}&quot;:{&quot;d&quot;:&quot;/Applications/Firefox.app/Contents/Resources/browser/extensions/{972ce4c6-7e08-4474-a285-3208198ce6fd}&quot;,&quot;e&quot;:true,&quot;v&quot;:&quot;40.0&quot;,&quot;st&quot;:1438968590000,&quot;mt&quot;:1438966083000}}}
-1439417561839	addons.xpi	DEBUG	getModTime: Recursive scan of fxdriver@googlecode.com
-1439417561841	addons.xpi	DEBUG	getModTime: Recursive scan of {972ce4c6-7e08-4474-a285-3208198ce6fd}
-1439417561842	addons.xpi	DEBUG	getInstallState changed: false, state: {&quot;app-profile&quot;:{&quot;fxdriver@googlecode.com&quot;:{&quot;d&quot;:&quot;/var/folders/zz/zyxvpxvq6csfxvn_n00000s4000069/T/anonymous835883968194593064webdriver-profile/extensions/fxdriver@googlecode.com&quot;,&quot;e&quot;:true,&quot;v&quot;:&quot;2.44.0&quot;,&quot;st&quot;:1439417559000,&quot;mt&quot;:1439417559000}},&quot;app-global&quot;:{&quot;{972ce4c6-7e08-4474-a285-3208198ce6fd}&quot;:{&quot;d&quot;:&quot;/Applications/Firefox.app/Contents/Resources/browser/extensions/{972ce4c6-7e08-4474-a285-3208198ce6fd}&quot;,&quot;e&quot;:true,&quot;v&quot;:&quot;40.0&quot;,&quot;st&quot;:1438968590000,&quot;mt&quot;:1438966083000}}}
-1439417561842	addons.xpi	DEBUG	No changes found
-1439417561846	addons.manager	DEBUG	Registering shutdown blocker for XPIProvider
-1439417561847	addons.manager	DEBUG	Provider finished startup: XPIProvider
-1439417561847	addons.manager	DEBUG	Starting provider: LightweightThemeManager
-1439417561847	addons.manager	DEBUG	Registering shutdown blocker for LightweightThemeManager
-1439417561847	addons.manager	DEBUG	Provider finished startup: LightweightThemeManager
-1439417561848	addons.manager	DEBUG	Starting provider: GMPProvider
-1439417561850	addons.manager	DEBUG	Registering shutdown blocker for GMPProvider
-1439417561851	addons.manager	DEBUG	Provider finished startup: GMPProvider
-1439417561851	addons.manager	DEBUG	Starting provider: PluginProvider
-1439417561851	addons.manager	DEBUG	Registering shutdown blocker for PluginProvider
-1439417561851	addons.manager	DEBUG	Provider finished startup: PluginProvider
-1439417561851	addons.manager	DEBUG	Completed startup sequence
-1439417561873	addons.xpi-utils	DEBUG	Starting async load of XPI database /var/folders/zz/zyxvpxvq6csfxvn_n00000s4000069/T/anonymous835883968194593064webdriver-profile/extensions.json
+  <testcase name="rootTest" classname="RPSGameFLTest" time="46.53">
+    <failure message="org.openqa.selenium.WebDriverException: Failed to connect to binary FirefoxBinary(/Applications/Firefox.app/Contents/MacOS/firefox-bin) on port 7055; process output follows: &#10; not a valid add-on ID: /var/folders/zz/zyxvpxvq6csfxvn_n00000s4000069/T/anonymous8426637167567820994webdriver-profile/extensions/webdriver-staging&#10;1439421410992&#9;addons.xpi&#9;INFO&#9;Mapping {972ce4c6-7e08-4474-a285-3208198ce6fd} to /Applications/Firefox.app/Contents/Resources/browser/extensions/{972ce4c6-7e08-4474-a285-3208198ce6fd}&#10;1439421410992&#9;addons.xpi&#9;DEBUG&#9;Skipping unavailable install location app-system-share&#10;1439421410993&#9;addons.xpi&#9;DEBUG&#9;checkForChanges&#10;1439421410993&#9;addons.xpi&#9;DEBUG&#9;Loaded add-on state from prefs: {&quot;app-profile&quot;:{&quot;fxdriver@googlecode.com&quot;:{&quot;d&quot;:&quot;/var/folders/zz/zyxvpxvq6csfxvn_n00000s4000069/T/anonymous8426637167567820994webdriver-profile/extensions/fxdriver@googlecode.com&quot;,&quot;e&quot;:true,&quot;v&quot;:&quot;2.44.0&quot;,&quot;st&quot;:1439421409000,&quot;mt&quot;:1439421409000}},&quot;app-global&quot;:{&quot;{972ce4c6-7e08-4474-a285-3208198ce6fd}&quot;:{&quot;d&quot;:&quot;/Applications/Firefox.app/Contents/Resources/browser/extensions/{972ce4c6-7e08-4474-a285-3208198ce6fd}&quot;,&quot;e&quot;:true,&quot;v&quot;:&quot;40.0&quot;,&quot;st&quot;:1438968590000,&quot;mt&quot;:1438966083000}}}&#10;1439421410994&#9;addons.xpi&#9;DEBUG&#9;getModTime: Recursive scan of fxdriver@googlecode.com&#10;1439421410996&#9;addons.xpi&#9;DEBUG&#9;getModTime: Recursive scan of {972ce4c6-7e08-4474-a285-3208198ce6fd}&#10;1439421410996&#9;addons.xpi&#9;DEBUG&#9;getInstallState changed: false, state: {&quot;app-profile&quot;:{&quot;fxdriver@googlecode.com&quot;:{&quot;d&quot;:&quot;/var/folders/zz/zyxvpxvq6csfxvn_n00000s4000069/T/anonymous8426637167567820994webdriver-profile/extensions/fxdriver@googlecode.com&quot;,&quot;e&quot;:true,&quot;v&quot;:&quot;2.44.0&quot;,&quot;st&quot;:1439421409000,&quot;mt&quot;:1439421409000}},&quot;app-global&quot;:{&quot;{972ce4c6-7e08-4474-a285-3208198ce6fd}&quot;:{&quot;d&quot;:&quot;/Applications/Firefox.app/Contents/Resources/browser/extensions/{972ce4c6-7e08-4474-a285-3208198ce6fd}&quot;,&quot;e&quot;:true,&quot;v&quot;:&quot;40.0&quot;,&quot;st&quot;:1438968590000,&quot;mt&quot;:1438966083000}}}&#10;1439421410997&#9;addons.xpi&#9;DEBUG&#9;No changes found&#10;1439421411001&#9;addons.manager&#9;DEBUG&#9;Registering shutdown blocker for XPIProvider&#10;1439421411001&#9;addons.manager&#9;DEBUG&#9;Provider finished startup: XPIProvider&#10;1439421411001&#9;addons.manager&#9;DEBUG&#9;Starting provider: LightweightThemeManager&#10;1439421411001&#9;addons.manager&#9;DEBUG&#9;Registering shutdown blocker for LightweightThemeManager&#10;1439421411001&#9;addons.manager&#9;DEBUG&#9;Provider finished startup: LightweightThemeManager&#10;1439421411002&#9;addons.manager&#9;DEBUG&#9;Starting provider: GMPProvider&#10;1439421411004&#9;addons.manager&#9;DEBUG&#9;Registering shutdown blocker for GMPProvider&#10;1439421411005&#9;addons.manager&#9;DEBUG&#9;Provider finished startup: GMPProvider&#10;1439421411005&#9;addons.manager&#9;DEBUG&#9;Starting provider: PluginProvider&#10;1439421411005&#9;addons.manager&#9;DEBUG&#9;Registering shutdown blocker for PluginProvider&#10;1439421411005&#9;addons.manager&#9;DEBUG&#9;Provider finished startup: PluginProvider&#10;1439421411005&#9;addons.manager&#9;DEBUG&#9;Completed startup sequence&#10;1439421411027&#9;addons.xpi-utils&#9;DEBUG&#9;Starting async load of XPI database /var/folders/zz/zyxvpxvq6csfxvn_n00000s4000069/T/anonymous8426637167567820994webdriver-profile/extensions.json&#10;*** Blocklist::_loadBlocklistFromFile: blocklist is disabled&#10;1439421411125&#9;addons.manager&#9;DEBUG&#9;Starting provider: &lt;unnamed-provider&gt;&#10;1439421411125&#9;addons.manager&#9;DEBUG&#9;Registering shutdown blocker for &lt;unnamed-provider&gt;&#10;1439421411125&#9;addons.manager&#9;DEBUG&#9;Provider finished startup: &lt;unnamed-provider&gt;&#10;1439421411208&#9;addons.xpi-utils&#9;DEBUG&#9;Async JSON file read took 0 MS&#10;1439421411208&#9;addons.xpi-utils&#9;DEBUG&#9;Finished async read of XPI database, parsing...&#10;1439421411209&#9;addons.xpi-utils&#9;DEBUG&#9;Successfully read XPI database&#10;1439421411272&#9;addons.manager&#9;DEBUG&#9;Starting provider: PreviousExperimentProvider&#10;1439421411272&#9;addons.manager&#9;DEBUG&#9;Registering shutdown blocker for PreviousExperimentProvider&#10;1439421411273&#9;addons.manager&#9;DEBUG&#9;Provider finished startup: PreviousExperimentProvider&#10;JavaScript error: file:///var/folders/zz/zyxvpxvq6csfxvn_n00000s4000069/T/anonymous8426637167567820994webdriver-profile/extensions/fxdriver@googlecode.com/components/driver-component.js, line 11487: TypeError: this.server_ is undefined&#10;JavaScript error: chrome://fxdriver/content/server.js, line 38: NS_ERROR_XPC_CI_RETURNED_FAILURE: Component returned failure code: 0x80570015 (NS_ERROR_XPC_CI_RETURNED_FAILURE) [nsIJSCID.createInstance]&#10;&#10;Build info: version: '2.44.0', revision: '76d78cf323ce037c5f92db6c1bba601c2ac43ad8', time: '2014-10-23 13:11:40'&#10;System info: host: 'epicodus-107.local', ip: '192.168.1.56', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.10.2', java.version: '1.8.0_51'&#10;Driver info: driver.version: FirefoxDriver" type="org.openqa.selenium.WebDriverException">org.openqa.selenium.WebDriverException: Failed to connect to binary FirefoxBinary(/Applications/Firefox.app/Contents/MacOS/firefox-bin) on port 7055; process output follows: 
+ not a valid add-on ID: /var/folders/zz/zyxvpxvq6csfxvn_n00000s4000069/T/anonymous8426637167567820994webdriver-profile/extensions/webdriver-staging
+1439421410992	addons.xpi	INFO	Mapping {972ce4c6-7e08-4474-a285-3208198ce6fd} to /Applications/Firefox.app/Contents/Resources/browser/extensions/{972ce4c6-7e08-4474-a285-3208198ce6fd}
+1439421410992	addons.xpi	DEBUG	Skipping unavailable install location app-system-share
+1439421410993	addons.xpi	DEBUG	checkForChanges
+1439421410993	addons.xpi	DEBUG	Loaded add-on state from prefs: {&quot;app-profile&quot;:{&quot;fxdriver@googlecode.com&quot;:{&quot;d&quot;:&quot;/var/folders/zz/zyxvpxvq6csfxvn_n00000s4000069/T/anonymous8426637167567820994webdriver-profile/extensions/fxdriver@googlecode.com&quot;,&quot;e&quot;:true,&quot;v&quot;:&quot;2.44.0&quot;,&quot;st&quot;:1439421409000,&quot;mt&quot;:1439421409000}},&quot;app-global&quot;:{&quot;{972ce4c6-7e08-4474-a285-3208198ce6fd}&quot;:{&quot;d&quot;:&quot;/Applications/Firefox.app/Contents/Resources/browser/extensions/{972ce4c6-7e08-4474-a285-3208198ce6fd}&quot;,&quot;e&quot;:true,&quot;v&quot;:&quot;40.0&quot;,&quot;st&quot;:1438968590000,&quot;mt&quot;:1438966083000}}}
+1439421410994	addons.xpi	DEBUG	getModTime: Recursive scan of fxdriver@googlecode.com
+1439421410996	addons.xpi	DEBUG	getModTime: Recursive scan of {972ce4c6-7e08-4474-a285-3208198ce6fd}
+1439421410996	addons.xpi	DEBUG	getInstallState changed: false, state: {&quot;app-profile&quot;:{&quot;fxdriver@googlecode.com&quot;:{&quot;d&quot;:&quot;/var/folders/zz/zyxvpxvq6csfxvn_n00000s4000069/T/anonymous8426637167567820994webdriver-profile/extensions/fxdriver@googlecode.com&quot;,&quot;e&quot;:true,&quot;v&quot;:&quot;2.44.0&quot;,&quot;st&quot;:1439421409000,&quot;mt&quot;:1439421409000}},&quot;app-global&quot;:{&quot;{972ce4c6-7e08-4474-a285-3208198ce6fd}&quot;:{&quot;d&quot;:&quot;/Applications/Firefox.app/Contents/Resources/browser/extensions/{972ce4c6-7e08-4474-a285-3208198ce6fd}&quot;,&quot;e&quot;:true,&quot;v&quot;:&quot;40.0&quot;,&quot;st&quot;:1438968590000,&quot;mt&quot;:1438966083000}}}
+1439421410997	addons.xpi	DEBUG	No changes found
+1439421411001	addons.manager	DEBUG	Registering shutdown blocker for XPIProvider
+1439421411001	addons.manager	DEBUG	Provider finished startup: XPIProvider
+1439421411001	addons.manager	DEBUG	Starting provider: LightweightThemeManager
+1439421411001	addons.manager	DEBUG	Registering shutdown blocker for LightweightThemeManager
+1439421411001	addons.manager	DEBUG	Provider finished startup: LightweightThemeManager
+1439421411002	addons.manager	DEBUG	Starting provider: GMPProvider
+1439421411004	addons.manager	DEBUG	Registering shutdown blocker for GMPProvider
+1439421411005	addons.manager	DEBUG	Provider finished startup: GMPProvider
+1439421411005	addons.manager	DEBUG	Starting provider: PluginProvider
+1439421411005	addons.manager	DEBUG	Registering shutdown blocker for PluginProvider
+1439421411005	addons.manager	DEBUG	Provider finished startup: PluginProvider
+1439421411005	addons.manager	DEBUG	Completed startup sequence
+1439421411027	addons.xpi-utils	DEBUG	Starting async load of XPI database /var/folders/zz/zyxvpxvq6csfxvn_n00000s4000069/T/anonymous8426637167567820994webdriver-profile/extensions.json
 *** Blocklist::_loadBlocklistFromFile: blocklist is disabled
-1439417561970	addons.manager	DEBUG	Starting provider: &lt;unnamed-provider&gt;
-1439417561970	addons.manager	DEBUG	Registering shutdown blocker for &lt;unnamed-provider&gt;
-1439417561970	addons.manager	DEBUG	Provider finished startup: &lt;unnamed-provider&gt;
-1439417562064	addons.xpi-utils	DEBUG	Async JSON file read took 0 MS
-1439417562064	addons.xpi-utils	DEBUG	Finished async read of XPI database, parsing...
-1439417562065	addons.xpi-utils	DEBUG	Successfully read XPI database
-1439417562128	addons.manager	DEBUG	Starting provider: PreviousExperimentProvider
-1439417562128	addons.manager	DEBUG	Registering shutdown blocker for PreviousExperimentProvider
-1439417562128	addons.manager	DEBUG	Provider finished startup: PreviousExperimentProvider
-JavaScript error: file:///var/folders/zz/zyxvpxvq6csfxvn_n00000s4000069/T/anonymous835883968194593064webdriver-profile/extensions/fxdriver@googlecode.com/components/driver-component.js, line 11487: TypeError: this.server_ is undefined
+1439421411125	addons.manager	DEBUG	Starting provider: &lt;unnamed-provider&gt;
+1439421411125	addons.manager	DEBUG	Registering shutdown blocker for &lt;unnamed-provider&gt;
+1439421411125	addons.manager	DEBUG	Provider finished startup: &lt;unnamed-provider&gt;
+1439421411208	addons.xpi-utils	DEBUG	Async JSON file read took 0 MS
+1439421411208	addons.xpi-utils	DEBUG	Finished async read of XPI database, parsing...
+1439421411209	addons.xpi-utils	DEBUG	Successfully read XPI database
+1439421411272	addons.manager	DEBUG	Starting provider: PreviousExperimentProvider
+1439421411272	addons.manager	DEBUG	Registering shutdown blocker for PreviousExperimentProvider
+1439421411273	addons.manager	DEBUG	Provider finished startup: PreviousExperimentProvider
+JavaScript error: file:///var/folders/zz/zyxvpxvq6csfxvn_n00000s4000069/T/anonymous8426637167567820994webdriver-profile/extensions/fxdriver@googlecode.com/components/driver-component.js, line 11487: TypeError: this.server_ is undefined
 JavaScript error: chrome://fxdriver/content/server.js, line 38: NS_ERROR_XPC_CI_RETURNED_FAILURE: Component returned failure code: 0x80570015 (NS_ERROR_XPC_CI_RETURNED_FAILURE) [nsIJSCID.createInstance]
-JavaScript error: resource:///modules/UITour.jsm, line 385: TypeError: window is null
-JavaScript error: resource:///modules/UITour.jsm, line 385: TypeError: window is null
-JavaScript error: resource:///modules/UITour.jsm, line 385: TypeError: window is null
-JavaScript error: resource:///modules/UITour.jsm, line 385: TypeError: window is null
-JavaScript error: resource:///modules/UITour.jsm, line 385: TypeError: window is null
 
 Build info: version: '2.44.0', revision: '76d78cf323ce037c5f92db6c1bba601c2ac43ad8', time: '2014-10-23 13:11:40'
 System info: host: 'epicodus-107.local', ip: '192.168.1.56', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.10.2', java.version: '1.8.0_51'
@@ -97,49 +95,47 @@ Driver info: driver.version: FirefoxDriver
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
 	at java.lang.Thread.run(Thread.java:745)
 Caused by: org.openqa.selenium.firefox.NotConnectedException: Unable to connect to host 127.0.0.1 on port 7055 after 45000 ms. Firefox console output:
-1839	addons.xpi	DEBUG	checkForChanges
-1439417561839	addons.xpi	DEBUG	Loaded add-on state from prefs: {&quot;app-profile&quot;:{&quot;fxdriver@googlecode.com&quot;:{&quot;d&quot;:&quot;/var/folders/zz/zyxvpxvq6csfxvn_n00000s4000069/T/anonymous835883968194593064webdriver-profile/extensions/fxdriver@googlecode.com&quot;,&quot;e&quot;:true,&quot;v&quot;:&quot;2.44.0&quot;,&quot;st&quot;:1439417559000,&quot;mt&quot;:1439417559000}},&quot;app-global&quot;:{&quot;{972ce4c6-7e08-4474-a285-3208198ce6fd}&quot;:{&quot;d&quot;:&quot;/Applications/Firefox.app/Contents/Resources/browser/extensions/{972ce4c6-7e08-4474-a285-3208198ce6fd}&quot;,&quot;e&quot;:true,&quot;v&quot;:&quot;40.0&quot;,&quot;st&quot;:1438968590000,&quot;mt&quot;:1438966083000}}}
-1439417561839	addons.xpi	DEBUG	getModTime: Recursive scan of fxdriver@googlecode.com
-1439417561841	addons.xpi	DEBUG	getModTime: Recursive scan of {972ce4c6-7e08-4474-a285-3208198ce6fd}
-1439417561842	addons.xpi	DEBUG	getInstallState changed: false, state: {&quot;app-profile&quot;:{&quot;fxdriver@googlecode.com&quot;:{&quot;d&quot;:&quot;/var/folders/zz/zyxvpxvq6csfxvn_n00000s4000069/T/anonymous835883968194593064webdriver-profile/extensions/fxdriver@googlecode.com&quot;,&quot;e&quot;:true,&quot;v&quot;:&quot;2.44.0&quot;,&quot;st&quot;:1439417559000,&quot;mt&quot;:1439417559000}},&quot;app-global&quot;:{&quot;{972ce4c6-7e08-4474-a285-3208198ce6fd}&quot;:{&quot;d&quot;:&quot;/Applications/Firefox.app/Contents/Resources/browser/extensions/{972ce4c6-7e08-4474-a285-3208198ce6fd}&quot;,&quot;e&quot;:true,&quot;v&quot;:&quot;40.0&quot;,&quot;st&quot;:1438968590000,&quot;mt&quot;:1438966083000}}}
-1439417561842	addons.xpi	DEBUG	No changes found
-1439417561846	addons.manager	DEBUG	Registering shutdown blocker for XPIProvider
-1439417561847	addons.manager	DEBUG	Provider finished startup: XPIProvider
-1439417561847	addons.manager	DEBUG	Starting provider: LightweightThemeManager
-1439417561847	addons.manager	DEBUG	Registering shutdown blocker for LightweightThemeManager
-1439417561847	addons.manager	DEBUG	Provider finished startup: LightweightThemeManager
-1439417561848	addons.manager	DEBUG	Starting provider: GMPProvider
-1439417561850	addons.manager	DEBUG	Registering shutdown blocker for GMPProvider
-1439417561851	addons.manager	DEBUG	Provider finished startup: GMPProvider
-1439417561851	addons.manager	DEBUG	Starting provider: PluginProvider
-1439417561851	addons.manager	DEBUG	Registering shutdown blocker for PluginProvider
-1439417561851	addons.manager	DEBUG	Provider finished startup: PluginProvider
-1439417561851	addons.manager	DEBUG	Completed startup sequence
-1439417561873	addons.xpi-utils	DEBUG	Starting async load of XPI database /var/folders/zz/zyxvpxvq6csfxvn_n00000s4000069/T/anonymous835883968194593064webdriver-profile/extensions.json
+ not a valid add-on ID: /var/folders/zz/zyxvpxvq6csfxvn_n00000s4000069/T/anonymous8426637167567820994webdriver-profile/extensions/webdriver-staging
+1439421410992	addons.xpi	INFO	Mapping {972ce4c6-7e08-4474-a285-3208198ce6fd} to /Applications/Firefox.app/Contents/Resources/browser/extensions/{972ce4c6-7e08-4474-a285-3208198ce6fd}
+1439421410992	addons.xpi	DEBUG	Skipping unavailable install location app-system-share
+1439421410993	addons.xpi	DEBUG	checkForChanges
+1439421410993	addons.xpi	DEBUG	Loaded add-on state from prefs: {&quot;app-profile&quot;:{&quot;fxdriver@googlecode.com&quot;:{&quot;d&quot;:&quot;/var/folders/zz/zyxvpxvq6csfxvn_n00000s4000069/T/anonymous8426637167567820994webdriver-profile/extensions/fxdriver@googlecode.com&quot;,&quot;e&quot;:true,&quot;v&quot;:&quot;2.44.0&quot;,&quot;st&quot;:1439421409000,&quot;mt&quot;:1439421409000}},&quot;app-global&quot;:{&quot;{972ce4c6-7e08-4474-a285-3208198ce6fd}&quot;:{&quot;d&quot;:&quot;/Applications/Firefox.app/Contents/Resources/browser/extensions/{972ce4c6-7e08-4474-a285-3208198ce6fd}&quot;,&quot;e&quot;:true,&quot;v&quot;:&quot;40.0&quot;,&quot;st&quot;:1438968590000,&quot;mt&quot;:1438966083000}}}
+1439421410994	addons.xpi	DEBUG	getModTime: Recursive scan of fxdriver@googlecode.com
+1439421410996	addons.xpi	DEBUG	getModTime: Recursive scan of {972ce4c6-7e08-4474-a285-3208198ce6fd}
+1439421410996	addons.xpi	DEBUG	getInstallState changed: false, state: {&quot;app-profile&quot;:{&quot;fxdriver@googlecode.com&quot;:{&quot;d&quot;:&quot;/var/folders/zz/zyxvpxvq6csfxvn_n00000s4000069/T/anonymous8426637167567820994webdriver-profile/extensions/fxdriver@googlecode.com&quot;,&quot;e&quot;:true,&quot;v&quot;:&quot;2.44.0&quot;,&quot;st&quot;:1439421409000,&quot;mt&quot;:1439421409000}},&quot;app-global&quot;:{&quot;{972ce4c6-7e08-4474-a285-3208198ce6fd}&quot;:{&quot;d&quot;:&quot;/Applications/Firefox.app/Contents/Resources/browser/extensions/{972ce4c6-7e08-4474-a285-3208198ce6fd}&quot;,&quot;e&quot;:true,&quot;v&quot;:&quot;40.0&quot;,&quot;st&quot;:1438968590000,&quot;mt&quot;:1438966083000}}}
+1439421410997	addons.xpi	DEBUG	No changes found
+1439421411001	addons.manager	DEBUG	Registering shutdown blocker for XPIProvider
+1439421411001	addons.manager	DEBUG	Provider finished startup: XPIProvider
+1439421411001	addons.manager	DEBUG	Starting provider: LightweightThemeManager
+1439421411001	addons.manager	DEBUG	Registering shutdown blocker for LightweightThemeManager
+1439421411001	addons.manager	DEBUG	Provider finished startup: LightweightThemeManager
+1439421411002	addons.manager	DEBUG	Starting provider: GMPProvider
+1439421411004	addons.manager	DEBUG	Registering shutdown blocker for GMPProvider
+1439421411005	addons.manager	DEBUG	Provider finished startup: GMPProvider
+1439421411005	addons.manager	DEBUG	Starting provider: PluginProvider
+1439421411005	addons.manager	DEBUG	Registering shutdown blocker for PluginProvider
+1439421411005	addons.manager	DEBUG	Provider finished startup: PluginProvider
+1439421411005	addons.manager	DEBUG	Completed startup sequence
+1439421411027	addons.xpi-utils	DEBUG	Starting async load of XPI database /var/folders/zz/zyxvpxvq6csfxvn_n00000s4000069/T/anonymous8426637167567820994webdriver-profile/extensions.json
 *** Blocklist::_loadBlocklistFromFile: blocklist is disabled
-1439417561970	addons.manager	DEBUG	Starting provider: &lt;unnamed-provider&gt;
-1439417561970	addons.manager	DEBUG	Registering shutdown blocker for &lt;unnamed-provider&gt;
-1439417561970	addons.manager	DEBUG	Provider finished startup: &lt;unnamed-provider&gt;
-1439417562064	addons.xpi-utils	DEBUG	Async JSON file read took 0 MS
-1439417562064	addons.xpi-utils	DEBUG	Finished async read of XPI database, parsing...
-1439417562065	addons.xpi-utils	DEBUG	Successfully read XPI database
-1439417562128	addons.manager	DEBUG	Starting provider: PreviousExperimentProvider
-1439417562128	addons.manager	DEBUG	Registering shutdown blocker for PreviousExperimentProvider
-1439417562128	addons.manager	DEBUG	Provider finished startup: PreviousExperimentProvider
-JavaScript error: file:///var/folders/zz/zyxvpxvq6csfxvn_n00000s4000069/T/anonymous835883968194593064webdriver-profile/extensions/fxdriver@googlecode.com/components/driver-component.js, line 11487: TypeError: this.server_ is undefined
+1439421411125	addons.manager	DEBUG	Starting provider: &lt;unnamed-provider&gt;
+1439421411125	addons.manager	DEBUG	Registering shutdown blocker for &lt;unnamed-provider&gt;
+1439421411125	addons.manager	DEBUG	Provider finished startup: &lt;unnamed-provider&gt;
+1439421411208	addons.xpi-utils	DEBUG	Async JSON file read took 0 MS
+1439421411208	addons.xpi-utils	DEBUG	Finished async read of XPI database, parsing...
+1439421411209	addons.xpi-utils	DEBUG	Successfully read XPI database
+1439421411272	addons.manager	DEBUG	Starting provider: PreviousExperimentProvider
+1439421411272	addons.manager	DEBUG	Registering shutdown blocker for PreviousExperimentProvider
+1439421411273	addons.manager	DEBUG	Provider finished startup: PreviousExperimentProvider
+JavaScript error: file:///var/folders/zz/zyxvpxvq6csfxvn_n00000s4000069/T/anonymous8426637167567820994webdriver-profile/extensions/fxdriver@googlecode.com/components/driver-component.js, line 11487: TypeError: this.server_ is undefined
 JavaScript error: chrome://fxdriver/content/server.js, line 38: NS_ERROR_XPC_CI_RETURNED_FAILURE: Component returned failure code: 0x80570015 (NS_ERROR_XPC_CI_RETURNED_FAILURE) [nsIJSCID.createInstance]
-JavaScript error: resource:///modules/UITour.jsm, line 385: TypeError: window is null
-JavaScript error: resource:///modules/UITour.jsm, line 385: TypeError: window is null
-JavaScript error: resource:///modules/UITour.jsm, line 385: TypeError: window is null
-JavaScript error: resource:///modules/UITour.jsm, line 385: TypeError: window is null
-JavaScript error: resource:///modules/UITour.jsm, line 385: TypeError: window is null
 
 	at org.openqa.selenium.firefox.internal.NewProfileExtensionConnection.start(NewProfileExtensionConnection.java:118)
 	... 52 more
 </failure>
     <failure message="java.lang.NullPointerException" type="java.lang.NullPointerException">java.lang.NullPointerException
 	at org.fluentlenium.core.Fluent.goTo(Fluent.java:336)
-	at RPSGameFLTest.rootTest(RPSGameFLTest.java:20)
+	at RPSGameFLTest.rootTest(RPSGameFLTest.java:23)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -191,41 +187,41 @@ JavaScript error: resource:///modules/UITour.jsm, line 385: TypeError: window is
 	at java.lang.Thread.run(Thread.java:745)
 </failure>
   </testcase>
-  <testcase name="isResultDisplayed" classname="RPSGameFLTest" time="47.111">
-    <failure message="org.openqa.selenium.WebDriverException: Failed to connect to binary FirefoxBinary(/Applications/Firefox.app/Contents/MacOS/firefox-bin) on port 7055; process output follows: &#10;me is not a valid add-on ID: /var/folders/zz/zyxvpxvq6csfxvn_n00000s4000069/T/anonymous720989432340230290webdriver-profile/extensions/webdriver-staging&#10;1439417608906&#9;addons.xpi&#9;INFO&#9;Mapping {972ce4c6-7e08-4474-a285-3208198ce6fd} to /Applications/Firefox.app/Contents/Resources/browser/extensions/{972ce4c6-7e08-4474-a285-3208198ce6fd}&#10;1439417608906&#9;addons.xpi&#9;DEBUG&#9;Skipping unavailable install location app-system-share&#10;1439417608907&#9;addons.xpi&#9;DEBUG&#9;checkForChanges&#10;1439417608907&#9;addons.xpi&#9;DEBUG&#9;Loaded add-on state from prefs: {&quot;app-profile&quot;:{&quot;fxdriver@googlecode.com&quot;:{&quot;d&quot;:&quot;/var/folders/zz/zyxvpxvq6csfxvn_n00000s4000069/T/anonymous720989432340230290webdriver-profile/extensions/fxdriver@googlecode.com&quot;,&quot;e&quot;:true,&quot;v&quot;:&quot;2.44.0&quot;,&quot;st&quot;:1439417606000,&quot;mt&quot;:1439417606000}},&quot;app-global&quot;:{&quot;{972ce4c6-7e08-4474-a285-3208198ce6fd}&quot;:{&quot;d&quot;:&quot;/Applications/Firefox.app/Contents/Resources/browser/extensions/{972ce4c6-7e08-4474-a285-3208198ce6fd}&quot;,&quot;e&quot;:true,&quot;v&quot;:&quot;40.0&quot;,&quot;st&quot;:1438968590000,&quot;mt&quot;:1438966083000}}}&#10;1439417608907&#9;addons.xpi&#9;DEBUG&#9;getModTime: Recursive scan of fxdriver@googlecode.com&#10;1439417608910&#9;addons.xpi&#9;DEBUG&#9;getModTime: Recursive scan of {972ce4c6-7e08-4474-a285-3208198ce6fd}&#10;1439417608910&#9;addons.xpi&#9;DEBUG&#9;getInstallState changed: false, state: {&quot;app-profile&quot;:{&quot;fxdriver@googlecode.com&quot;:{&quot;d&quot;:&quot;/var/folders/zz/zyxvpxvq6csfxvn_n00000s4000069/T/anonymous720989432340230290webdriver-profile/extensions/fxdriver@googlecode.com&quot;,&quot;e&quot;:true,&quot;v&quot;:&quot;2.44.0&quot;,&quot;st&quot;:1439417606000,&quot;mt&quot;:1439417606000}},&quot;app-global&quot;:{&quot;{972ce4c6-7e08-4474-a285-3208198ce6fd}&quot;:{&quot;d&quot;:&quot;/Applications/Firefox.app/Contents/Resources/browser/extensions/{972ce4c6-7e08-4474-a285-3208198ce6fd}&quot;,&quot;e&quot;:true,&quot;v&quot;:&quot;40.0&quot;,&quot;st&quot;:1438968590000,&quot;mt&quot;:1438966083000}}}&#10;1439417608911&#9;addons.xpi&#9;DEBUG&#9;No changes found&#10;1439417608915&#9;addons.manager&#9;DEBUG&#9;Registering shutdown blocker for XPIProvider&#10;1439417608915&#9;addons.manager&#9;DEBUG&#9;Provider finished startup: XPIProvider&#10;1439417608915&#9;addons.manager&#9;DEBUG&#9;Starting provider: LightweightThemeManager&#10;1439417608915&#9;addons.manager&#9;DEBUG&#9;Registering shutdown blocker for LightweightThemeManager&#10;1439417608916&#9;addons.manager&#9;DEBUG&#9;Provider finished startup: LightweightThemeManager&#10;1439417608916&#9;addons.manager&#9;DEBUG&#9;Starting provider: GMPProvider&#10;1439417608919&#9;addons.manager&#9;DEBUG&#9;Registering shutdown blocker for GMPProvider&#10;1439417608919&#9;addons.manager&#9;DEBUG&#9;Provider finished startup: GMPProvider&#10;1439417608919&#9;addons.manager&#9;DEBUG&#9;Starting provider: PluginProvider&#10;1439417608919&#9;addons.manager&#9;DEBUG&#9;Registering shutdown blocker for PluginProvider&#10;1439417608920&#9;addons.manager&#9;DEBUG&#9;Provider finished startup: PluginProvider&#10;1439417608920&#9;addons.manager&#9;DEBUG&#9;Completed startup sequence&#10;1439417608943&#9;addons.xpi-utils&#9;DEBUG&#9;Starting async load of XPI database /var/folders/zz/zyxvpxvq6csfxvn_n00000s4000069/T/anonymous720989432340230290webdriver-profile/extensions.json&#10;*** Blocklist::_loadBlocklistFromFile: blocklist is disabled&#10;1439417609042&#9;addons.manager&#9;DEBUG&#9;Starting provider: &lt;unnamed-provider&gt;&#10;1439417609042&#9;addons.manager&#9;DEBUG&#9;Registering shutdown blocker for &lt;unnamed-provider&gt;&#10;1439417609042&#9;addons.manager&#9;DEBUG&#9;Provider finished startup: &lt;unnamed-provider&gt;&#10;1439417609133&#9;addons.xpi-utils&#9;DEBUG&#9;Async JSON file read took 0 MS&#10;1439417609133&#9;addons.xpi-utils&#9;DEBUG&#9;Finished async read of XPI database, parsing...&#10;1439417609134&#9;addons.xpi-utils&#9;DEBUG&#9;Successfully read XPI database&#10;1439417609221&#9;addons.manager&#9;DEBUG&#9;Starting provider: PreviousExperimentProvider&#10;1439417609221&#9;addons.manager&#9;DEBUG&#9;Registering shutdown blocker for PreviousExperimentProvider&#10;1439417609221&#9;addons.manager&#9;DEBUG&#9;Provider finished startup: PreviousExperimentProvider&#10;JavaScript error: file:///var/folders/zz/zyxvpxvq6csfxvn_n00000s4000069/T/anonymous720989432340230290webdriver-profile/extensions/fxdriver@googlecode.com/components/driver-component.js, line 11487: TypeError: this.server_ is undefined&#10;JavaScript error: chrome://fxdriver/content/server.js, line 38: NS_ERROR_XPC_CI_RETURNED_FAILURE: Component returned failure code: 0x80570015 (NS_ERROR_XPC_CI_RETURNED_FAILURE) [nsIJSCID.createInstance]&#10;&#10;Build info: version: '2.44.0', revision: '76d78cf323ce037c5f92db6c1bba601c2ac43ad8', time: '2014-10-23 13:11:40'&#10;System info: host: 'epicodus-107.local', ip: '192.168.1.56', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.10.2', java.version: '1.8.0_51'&#10;Driver info: driver.version: FirefoxDriver" type="org.openqa.selenium.WebDriverException">org.openqa.selenium.WebDriverException: Failed to connect to binary FirefoxBinary(/Applications/Firefox.app/Contents/MacOS/firefox-bin) on port 7055; process output follows: 
-me is not a valid add-on ID: /var/folders/zz/zyxvpxvq6csfxvn_n00000s4000069/T/anonymous720989432340230290webdriver-profile/extensions/webdriver-staging
-1439417608906	addons.xpi	INFO	Mapping {972ce4c6-7e08-4474-a285-3208198ce6fd} to /Applications/Firefox.app/Contents/Resources/browser/extensions/{972ce4c6-7e08-4474-a285-3208198ce6fd}
-1439417608906	addons.xpi	DEBUG	Skipping unavailable install location app-system-share
-1439417608907	addons.xpi	DEBUG	checkForChanges
-1439417608907	addons.xpi	DEBUG	Loaded add-on state from prefs: {&quot;app-profile&quot;:{&quot;fxdriver@googlecode.com&quot;:{&quot;d&quot;:&quot;/var/folders/zz/zyxvpxvq6csfxvn_n00000s4000069/T/anonymous720989432340230290webdriver-profile/extensions/fxdriver@googlecode.com&quot;,&quot;e&quot;:true,&quot;v&quot;:&quot;2.44.0&quot;,&quot;st&quot;:1439417606000,&quot;mt&quot;:1439417606000}},&quot;app-global&quot;:{&quot;{972ce4c6-7e08-4474-a285-3208198ce6fd}&quot;:{&quot;d&quot;:&quot;/Applications/Firefox.app/Contents/Resources/browser/extensions/{972ce4c6-7e08-4474-a285-3208198ce6fd}&quot;,&quot;e&quot;:true,&quot;v&quot;:&quot;40.0&quot;,&quot;st&quot;:1438968590000,&quot;mt&quot;:1438966083000}}}
-1439417608907	addons.xpi	DEBUG	getModTime: Recursive scan of fxdriver@googlecode.com
-1439417608910	addons.xpi	DEBUG	getModTime: Recursive scan of {972ce4c6-7e08-4474-a285-3208198ce6fd}
-1439417608910	addons.xpi	DEBUG	getInstallState changed: false, state: {&quot;app-profile&quot;:{&quot;fxdriver@googlecode.com&quot;:{&quot;d&quot;:&quot;/var/folders/zz/zyxvpxvq6csfxvn_n00000s4000069/T/anonymous720989432340230290webdriver-profile/extensions/fxdriver@googlecode.com&quot;,&quot;e&quot;:true,&quot;v&quot;:&quot;2.44.0&quot;,&quot;st&quot;:1439417606000,&quot;mt&quot;:1439417606000}},&quot;app-global&quot;:{&quot;{972ce4c6-7e08-4474-a285-3208198ce6fd}&quot;:{&quot;d&quot;:&quot;/Applications/Firefox.app/Contents/Resources/browser/extensions/{972ce4c6-7e08-4474-a285-3208198ce6fd}&quot;,&quot;e&quot;:true,&quot;v&quot;:&quot;40.0&quot;,&quot;st&quot;:1438968590000,&quot;mt&quot;:1438966083000}}}
-1439417608911	addons.xpi	DEBUG	No changes found
-1439417608915	addons.manager	DEBUG	Registering shutdown blocker for XPIProvider
-1439417608915	addons.manager	DEBUG	Provider finished startup: XPIProvider
-1439417608915	addons.manager	DEBUG	Starting provider: LightweightThemeManager
-1439417608915	addons.manager	DEBUG	Registering shutdown blocker for LightweightThemeManager
-1439417608916	addons.manager	DEBUG	Provider finished startup: LightweightThemeManager
-1439417608916	addons.manager	DEBUG	Starting provider: GMPProvider
-1439417608919	addons.manager	DEBUG	Registering shutdown blocker for GMPProvider
-1439417608919	addons.manager	DEBUG	Provider finished startup: GMPProvider
-1439417608919	addons.manager	DEBUG	Starting provider: PluginProvider
-1439417608919	addons.manager	DEBUG	Registering shutdown blocker for PluginProvider
-1439417608920	addons.manager	DEBUG	Provider finished startup: PluginProvider
-1439417608920	addons.manager	DEBUG	Completed startup sequence
-1439417608943	addons.xpi-utils	DEBUG	Starting async load of XPI database /var/folders/zz/zyxvpxvq6csfxvn_n00000s4000069/T/anonymous720989432340230290webdriver-profile/extensions.json
+  <testcase name="isResultDisplayed" classname="RPSGameFLTest" time="46.241">
+    <failure message="org.openqa.selenium.WebDriverException: Failed to connect to binary FirefoxBinary(/Applications/Firefox.app/Contents/MacOS/firefox-bin) on port 7055; process output follows: &#10; not a valid add-on ID: /var/folders/zz/zyxvpxvq6csfxvn_n00000s4000069/T/anonymous1029955920239933705webdriver-profile/extensions/webdriver-staging&#10;1439421457218&#9;addons.xpi&#9;INFO&#9;Mapping {972ce4c6-7e08-4474-a285-3208198ce6fd} to /Applications/Firefox.app/Contents/Resources/browser/extensions/{972ce4c6-7e08-4474-a285-3208198ce6fd}&#10;1439421457218&#9;addons.xpi&#9;DEBUG&#9;Skipping unavailable install location app-system-share&#10;1439421457218&#9;addons.xpi&#9;DEBUG&#9;checkForChanges&#10;1439421457219&#9;addons.xpi&#9;DEBUG&#9;Loaded add-on state from prefs: {&quot;app-profile&quot;:{&quot;fxdriver@googlecode.com&quot;:{&quot;d&quot;:&quot;/var/folders/zz/zyxvpxvq6csfxvn_n00000s4000069/T/anonymous1029955920239933705webdriver-profile/extensions/fxdriver@googlecode.com&quot;,&quot;e&quot;:true,&quot;v&quot;:&quot;2.44.0&quot;,&quot;st&quot;:1439421456000,&quot;mt&quot;:1439421456000}},&quot;app-global&quot;:{&quot;{972ce4c6-7e08-4474-a285-3208198ce6fd}&quot;:{&quot;d&quot;:&quot;/Applications/Firefox.app/Contents/Resources/browser/extensions/{972ce4c6-7e08-4474-a285-3208198ce6fd}&quot;,&quot;e&quot;:true,&quot;v&quot;:&quot;40.0&quot;,&quot;st&quot;:1438968590000,&quot;mt&quot;:1438966083000}}}&#10;1439421457219&#9;addons.xpi&#9;DEBUG&#9;getModTime: Recursive scan of fxdriver@googlecode.com&#10;1439421457221&#9;addons.xpi&#9;DEBUG&#9;getModTime: Recursive scan of {972ce4c6-7e08-4474-a285-3208198ce6fd}&#10;1439421457221&#9;addons.xpi&#9;DEBUG&#9;getInstallState changed: false, state: {&quot;app-profile&quot;:{&quot;fxdriver@googlecode.com&quot;:{&quot;d&quot;:&quot;/var/folders/zz/zyxvpxvq6csfxvn_n00000s4000069/T/anonymous1029955920239933705webdriver-profile/extensions/fxdriver@googlecode.com&quot;,&quot;e&quot;:true,&quot;v&quot;:&quot;2.44.0&quot;,&quot;st&quot;:1439421456000,&quot;mt&quot;:1439421456000}},&quot;app-global&quot;:{&quot;{972ce4c6-7e08-4474-a285-3208198ce6fd}&quot;:{&quot;d&quot;:&quot;/Applications/Firefox.app/Contents/Resources/browser/extensions/{972ce4c6-7e08-4474-a285-3208198ce6fd}&quot;,&quot;e&quot;:true,&quot;v&quot;:&quot;40.0&quot;,&quot;st&quot;:1438968590000,&quot;mt&quot;:1438966083000}}}&#10;1439421457222&#9;addons.xpi&#9;DEBUG&#9;No changes found&#10;1439421457225&#9;addons.manager&#9;DEBUG&#9;Registering shutdown blocker for XPIProvider&#10;1439421457226&#9;addons.manager&#9;DEBUG&#9;Provider finished startup: XPIProvider&#10;1439421457226&#9;addons.manager&#9;DEBUG&#9;Starting provider: LightweightThemeManager&#10;1439421457226&#9;addons.manager&#9;DEBUG&#9;Registering shutdown blocker for LightweightThemeManager&#10;1439421457226&#9;addons.manager&#9;DEBUG&#9;Provider finished startup: LightweightThemeManager&#10;1439421457226&#9;addons.manager&#9;DEBUG&#9;Starting provider: GMPProvider&#10;1439421457229&#9;addons.manager&#9;DEBUG&#9;Registering shutdown blocker for GMPProvider&#10;1439421457229&#9;addons.manager&#9;DEBUG&#9;Provider finished startup: GMPProvider&#10;1439421457230&#9;addons.manager&#9;DEBUG&#9;Starting provider: PluginProvider&#10;1439421457230&#9;addons.manager&#9;DEBUG&#9;Registering shutdown blocker for PluginProvider&#10;1439421457230&#9;addons.manager&#9;DEBUG&#9;Provider finished startup: PluginProvider&#10;1439421457230&#9;addons.manager&#9;DEBUG&#9;Completed startup sequence&#10;1439421457250&#9;addons.xpi-utils&#9;DEBUG&#9;Starting async load of XPI database /var/folders/zz/zyxvpxvq6csfxvn_n00000s4000069/T/anonymous1029955920239933705webdriver-profile/extensions.json&#10;*** Blocklist::_loadBlocklistFromFile: blocklist is disabled&#10;1439421457348&#9;addons.manager&#9;DEBUG&#9;Starting provider: &lt;unnamed-provider&gt;&#10;1439421457348&#9;addons.manager&#9;DEBUG&#9;Registering shutdown blocker for &lt;unnamed-provider&gt;&#10;1439421457348&#9;addons.manager&#9;DEBUG&#9;Provider finished startup: &lt;unnamed-provider&gt;&#10;1439421457428&#9;addons.xpi-utils&#9;DEBUG&#9;Async JSON file read took 0 MS&#10;1439421457428&#9;addons.xpi-utils&#9;DEBUG&#9;Finished async read of XPI database, parsing...&#10;1439421457429&#9;addons.xpi-utils&#9;DEBUG&#9;Successfully read XPI database&#10;1439421457494&#9;addons.manager&#9;DEBUG&#9;Starting provider: PreviousExperimentProvider&#10;1439421457494&#9;addons.manager&#9;DEBUG&#9;Registering shutdown blocker for PreviousExperimentProvider&#10;1439421457495&#9;addons.manager&#9;DEBUG&#9;Provider finished startup: PreviousExperimentProvider&#10;JavaScript error: file:///var/folders/zz/zyxvpxvq6csfxvn_n00000s4000069/T/anonymous1029955920239933705webdriver-profile/extensions/fxdriver@googlecode.com/components/driver-component.js, line 11487: TypeError: this.server_ is undefined&#10;JavaScript error: chrome://fxdriver/content/server.js, line 38: NS_ERROR_XPC_CI_RETURNED_FAILURE: Component returned failure code: 0x80570015 (NS_ERROR_XPC_CI_RETURNED_FAILURE) [nsIJSCID.createInstance]&#10;&#10;Build info: version: '2.44.0', revision: '76d78cf323ce037c5f92db6c1bba601c2ac43ad8', time: '2014-10-23 13:11:40'&#10;System info: host: 'epicodus-107.local', ip: '192.168.1.56', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.10.2', java.version: '1.8.0_51'&#10;Driver info: driver.version: FirefoxDriver" type="org.openqa.selenium.WebDriverException">org.openqa.selenium.WebDriverException: Failed to connect to binary FirefoxBinary(/Applications/Firefox.app/Contents/MacOS/firefox-bin) on port 7055; process output follows: 
+ not a valid add-on ID: /var/folders/zz/zyxvpxvq6csfxvn_n00000s4000069/T/anonymous1029955920239933705webdriver-profile/extensions/webdriver-staging
+1439421457218	addons.xpi	INFO	Mapping {972ce4c6-7e08-4474-a285-3208198ce6fd} to /Applications/Firefox.app/Contents/Resources/browser/extensions/{972ce4c6-7e08-4474-a285-3208198ce6fd}
+1439421457218	addons.xpi	DEBUG	Skipping unavailable install location app-system-share
+1439421457218	addons.xpi	DEBUG	checkForChanges
+1439421457219	addons.xpi	DEBUG	Loaded add-on state from prefs: {&quot;app-profile&quot;:{&quot;fxdriver@googlecode.com&quot;:{&quot;d&quot;:&quot;/var/folders/zz/zyxvpxvq6csfxvn_n00000s4000069/T/anonymous1029955920239933705webdriver-profile/extensions/fxdriver@googlecode.com&quot;,&quot;e&quot;:true,&quot;v&quot;:&quot;2.44.0&quot;,&quot;st&quot;:1439421456000,&quot;mt&quot;:1439421456000}},&quot;app-global&quot;:{&quot;{972ce4c6-7e08-4474-a285-3208198ce6fd}&quot;:{&quot;d&quot;:&quot;/Applications/Firefox.app/Contents/Resources/browser/extensions/{972ce4c6-7e08-4474-a285-3208198ce6fd}&quot;,&quot;e&quot;:true,&quot;v&quot;:&quot;40.0&quot;,&quot;st&quot;:1438968590000,&quot;mt&quot;:1438966083000}}}
+1439421457219	addons.xpi	DEBUG	getModTime: Recursive scan of fxdriver@googlecode.com
+1439421457221	addons.xpi	DEBUG	getModTime: Recursive scan of {972ce4c6-7e08-4474-a285-3208198ce6fd}
+1439421457221	addons.xpi	DEBUG	getInstallState changed: false, state: {&quot;app-profile&quot;:{&quot;fxdriver@googlecode.com&quot;:{&quot;d&quot;:&quot;/var/folders/zz/zyxvpxvq6csfxvn_n00000s4000069/T/anonymous1029955920239933705webdriver-profile/extensions/fxdriver@googlecode.com&quot;,&quot;e&quot;:true,&quot;v&quot;:&quot;2.44.0&quot;,&quot;st&quot;:1439421456000,&quot;mt&quot;:1439421456000}},&quot;app-global&quot;:{&quot;{972ce4c6-7e08-4474-a285-3208198ce6fd}&quot;:{&quot;d&quot;:&quot;/Applications/Firefox.app/Contents/Resources/browser/extensions/{972ce4c6-7e08-4474-a285-3208198ce6fd}&quot;,&quot;e&quot;:true,&quot;v&quot;:&quot;40.0&quot;,&quot;st&quot;:1438968590000,&quot;mt&quot;:1438966083000}}}
+1439421457222	addons.xpi	DEBUG	No changes found
+1439421457225	addons.manager	DEBUG	Registering shutdown blocker for XPIProvider
+1439421457226	addons.manager	DEBUG	Provider finished startup: XPIProvider
+1439421457226	addons.manager	DEBUG	Starting provider: LightweightThemeManager
+1439421457226	addons.manager	DEBUG	Registering shutdown blocker for LightweightThemeManager
+1439421457226	addons.manager	DEBUG	Provider finished startup: LightweightThemeManager
+1439421457226	addons.manager	DEBUG	Starting provider: GMPProvider
+1439421457229	addons.manager	DEBUG	Registering shutdown blocker for GMPProvider
+1439421457229	addons.manager	DEBUG	Provider finished startup: GMPProvider
+1439421457230	addons.manager	DEBUG	Starting provider: PluginProvider
+1439421457230	addons.manager	DEBUG	Registering shutdown blocker for PluginProvider
+1439421457230	addons.manager	DEBUG	Provider finished startup: PluginProvider
+1439421457230	addons.manager	DEBUG	Completed startup sequence
+1439421457250	addons.xpi-utils	DEBUG	Starting async load of XPI database /var/folders/zz/zyxvpxvq6csfxvn_n00000s4000069/T/anonymous1029955920239933705webdriver-profile/extensions.json
 *** Blocklist::_loadBlocklistFromFile: blocklist is disabled
-1439417609042	addons.manager	DEBUG	Starting provider: &lt;unnamed-provider&gt;
-1439417609042	addons.manager	DEBUG	Registering shutdown blocker for &lt;unnamed-provider&gt;
-1439417609042	addons.manager	DEBUG	Provider finished startup: &lt;unnamed-provider&gt;
-1439417609133	addons.xpi-utils	DEBUG	Async JSON file read took 0 MS
-1439417609133	addons.xpi-utils	DEBUG	Finished async read of XPI database, parsing...
-1439417609134	addons.xpi-utils	DEBUG	Successfully read XPI database
-1439417609221	addons.manager	DEBUG	Starting provider: PreviousExperimentProvider
-1439417609221	addons.manager	DEBUG	Registering shutdown blocker for PreviousExperimentProvider
-1439417609221	addons.manager	DEBUG	Provider finished startup: PreviousExperimentProvider
-JavaScript error: file:///var/folders/zz/zyxvpxvq6csfxvn_n00000s4000069/T/anonymous720989432340230290webdriver-profile/extensions/fxdriver@googlecode.com/components/driver-component.js, line 11487: TypeError: this.server_ is undefined
+1439421457348	addons.manager	DEBUG	Starting provider: &lt;unnamed-provider&gt;
+1439421457348	addons.manager	DEBUG	Registering shutdown blocker for &lt;unnamed-provider&gt;
+1439421457348	addons.manager	DEBUG	Provider finished startup: &lt;unnamed-provider&gt;
+1439421457428	addons.xpi-utils	DEBUG	Async JSON file read took 0 MS
+1439421457428	addons.xpi-utils	DEBUG	Finished async read of XPI database, parsing...
+1439421457429	addons.xpi-utils	DEBUG	Successfully read XPI database
+1439421457494	addons.manager	DEBUG	Starting provider: PreviousExperimentProvider
+1439421457494	addons.manager	DEBUG	Registering shutdown blocker for PreviousExperimentProvider
+1439421457495	addons.manager	DEBUG	Provider finished startup: PreviousExperimentProvider
+JavaScript error: file:///var/folders/zz/zyxvpxvq6csfxvn_n00000s4000069/T/anonymous1029955920239933705webdriver-profile/extensions/fxdriver@googlecode.com/components/driver-component.js, line 11487: TypeError: this.server_ is undefined
 JavaScript error: chrome://fxdriver/content/server.js, line 38: NS_ERROR_XPC_CI_RETURNED_FAILURE: Component returned failure code: 0x80570015 (NS_ERROR_XPC_CI_RETURNED_FAILURE) [nsIJSCID.createInstance]
 
 Build info: version: '2.44.0', revision: '76d78cf323ce037c5f92db6c1bba601c2ac43ad8', time: '2014-10-23 13:11:40'
@@ -285,39 +281,39 @@ Driver info: driver.version: FirefoxDriver
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
 	at java.lang.Thread.run(Thread.java:745)
 Caused by: org.openqa.selenium.firefox.NotConnectedException: Unable to connect to host 127.0.0.1 on port 7055 after 45000 ms. Firefox console output:
-me is not a valid add-on ID: /var/folders/zz/zyxvpxvq6csfxvn_n00000s4000069/T/anonymous720989432340230290webdriver-profile/extensions/webdriver-staging
-1439417608906	addons.xpi	INFO	Mapping {972ce4c6-7e08-4474-a285-3208198ce6fd} to /Applications/Firefox.app/Contents/Resources/browser/extensions/{972ce4c6-7e08-4474-a285-3208198ce6fd}
-1439417608906	addons.xpi	DEBUG	Skipping unavailable install location app-system-share
-1439417608907	addons.xpi	DEBUG	checkForChanges
-1439417608907	addons.xpi	DEBUG	Loaded add-on state from prefs: {&quot;app-profile&quot;:{&quot;fxdriver@googlecode.com&quot;:{&quot;d&quot;:&quot;/var/folders/zz/zyxvpxvq6csfxvn_n00000s4000069/T/anonymous720989432340230290webdriver-profile/extensions/fxdriver@googlecode.com&quot;,&quot;e&quot;:true,&quot;v&quot;:&quot;2.44.0&quot;,&quot;st&quot;:1439417606000,&quot;mt&quot;:1439417606000}},&quot;app-global&quot;:{&quot;{972ce4c6-7e08-4474-a285-3208198ce6fd}&quot;:{&quot;d&quot;:&quot;/Applications/Firefox.app/Contents/Resources/browser/extensions/{972ce4c6-7e08-4474-a285-3208198ce6fd}&quot;,&quot;e&quot;:true,&quot;v&quot;:&quot;40.0&quot;,&quot;st&quot;:1438968590000,&quot;mt&quot;:1438966083000}}}
-1439417608907	addons.xpi	DEBUG	getModTime: Recursive scan of fxdriver@googlecode.com
-1439417608910	addons.xpi	DEBUG	getModTime: Recursive scan of {972ce4c6-7e08-4474-a285-3208198ce6fd}
-1439417608910	addons.xpi	DEBUG	getInstallState changed: false, state: {&quot;app-profile&quot;:{&quot;fxdriver@googlecode.com&quot;:{&quot;d&quot;:&quot;/var/folders/zz/zyxvpxvq6csfxvn_n00000s4000069/T/anonymous720989432340230290webdriver-profile/extensions/fxdriver@googlecode.com&quot;,&quot;e&quot;:true,&quot;v&quot;:&quot;2.44.0&quot;,&quot;st&quot;:1439417606000,&quot;mt&quot;:1439417606000}},&quot;app-global&quot;:{&quot;{972ce4c6-7e08-4474-a285-3208198ce6fd}&quot;:{&quot;d&quot;:&quot;/Applications/Firefox.app/Contents/Resources/browser/extensions/{972ce4c6-7e08-4474-a285-3208198ce6fd}&quot;,&quot;e&quot;:true,&quot;v&quot;:&quot;40.0&quot;,&quot;st&quot;:1438968590000,&quot;mt&quot;:1438966083000}}}
-1439417608911	addons.xpi	DEBUG	No changes found
-1439417608915	addons.manager	DEBUG	Registering shutdown blocker for XPIProvider
-1439417608915	addons.manager	DEBUG	Provider finished startup: XPIProvider
-1439417608915	addons.manager	DEBUG	Starting provider: LightweightThemeManager
-1439417608915	addons.manager	DEBUG	Registering shutdown blocker for LightweightThemeManager
-1439417608916	addons.manager	DEBUG	Provider finished startup: LightweightThemeManager
-1439417608916	addons.manager	DEBUG	Starting provider: GMPProvider
-1439417608919	addons.manager	DEBUG	Registering shutdown blocker for GMPProvider
-1439417608919	addons.manager	DEBUG	Provider finished startup: GMPProvider
-1439417608919	addons.manager	DEBUG	Starting provider: PluginProvider
-1439417608919	addons.manager	DEBUG	Registering shutdown blocker for PluginProvider
-1439417608920	addons.manager	DEBUG	Provider finished startup: PluginProvider
-1439417608920	addons.manager	DEBUG	Completed startup sequence
-1439417608943	addons.xpi-utils	DEBUG	Starting async load of XPI database /var/folders/zz/zyxvpxvq6csfxvn_n00000s4000069/T/anonymous720989432340230290webdriver-profile/extensions.json
+ not a valid add-on ID: /var/folders/zz/zyxvpxvq6csfxvn_n00000s4000069/T/anonymous1029955920239933705webdriver-profile/extensions/webdriver-staging
+1439421457218	addons.xpi	INFO	Mapping {972ce4c6-7e08-4474-a285-3208198ce6fd} to /Applications/Firefox.app/Contents/Resources/browser/extensions/{972ce4c6-7e08-4474-a285-3208198ce6fd}
+1439421457218	addons.xpi	DEBUG	Skipping unavailable install location app-system-share
+1439421457218	addons.xpi	DEBUG	checkForChanges
+1439421457219	addons.xpi	DEBUG	Loaded add-on state from prefs: {&quot;app-profile&quot;:{&quot;fxdriver@googlecode.com&quot;:{&quot;d&quot;:&quot;/var/folders/zz/zyxvpxvq6csfxvn_n00000s4000069/T/anonymous1029955920239933705webdriver-profile/extensions/fxdriver@googlecode.com&quot;,&quot;e&quot;:true,&quot;v&quot;:&quot;2.44.0&quot;,&quot;st&quot;:1439421456000,&quot;mt&quot;:1439421456000}},&quot;app-global&quot;:{&quot;{972ce4c6-7e08-4474-a285-3208198ce6fd}&quot;:{&quot;d&quot;:&quot;/Applications/Firefox.app/Contents/Resources/browser/extensions/{972ce4c6-7e08-4474-a285-3208198ce6fd}&quot;,&quot;e&quot;:true,&quot;v&quot;:&quot;40.0&quot;,&quot;st&quot;:1438968590000,&quot;mt&quot;:1438966083000}}}
+1439421457219	addons.xpi	DEBUG	getModTime: Recursive scan of fxdriver@googlecode.com
+1439421457221	addons.xpi	DEBUG	getModTime: Recursive scan of {972ce4c6-7e08-4474-a285-3208198ce6fd}
+1439421457221	addons.xpi	DEBUG	getInstallState changed: false, state: {&quot;app-profile&quot;:{&quot;fxdriver@googlecode.com&quot;:{&quot;d&quot;:&quot;/var/folders/zz/zyxvpxvq6csfxvn_n00000s4000069/T/anonymous1029955920239933705webdriver-profile/extensions/fxdriver@googlecode.com&quot;,&quot;e&quot;:true,&quot;v&quot;:&quot;2.44.0&quot;,&quot;st&quot;:1439421456000,&quot;mt&quot;:1439421456000}},&quot;app-global&quot;:{&quot;{972ce4c6-7e08-4474-a285-3208198ce6fd}&quot;:{&quot;d&quot;:&quot;/Applications/Firefox.app/Contents/Resources/browser/extensions/{972ce4c6-7e08-4474-a285-3208198ce6fd}&quot;,&quot;e&quot;:true,&quot;v&quot;:&quot;40.0&quot;,&quot;st&quot;:1438968590000,&quot;mt&quot;:1438966083000}}}
+1439421457222	addons.xpi	DEBUG	No changes found
+1439421457225	addons.manager	DEBUG	Registering shutdown blocker for XPIProvider
+1439421457226	addons.manager	DEBUG	Provider finished startup: XPIProvider
+1439421457226	addons.manager	DEBUG	Starting provider: LightweightThemeManager
+1439421457226	addons.manager	DEBUG	Registering shutdown blocker for LightweightThemeManager
+1439421457226	addons.manager	DEBUG	Provider finished startup: LightweightThemeManager
+1439421457226	addons.manager	DEBUG	Starting provider: GMPProvider
+1439421457229	addons.manager	DEBUG	Registering shutdown blocker for GMPProvider
+1439421457229	addons.manager	DEBUG	Provider finished startup: GMPProvider
+1439421457230	addons.manager	DEBUG	Starting provider: PluginProvider
+1439421457230	addons.manager	DEBUG	Registering shutdown blocker for PluginProvider
+1439421457230	addons.manager	DEBUG	Provider finished startup: PluginProvider
+1439421457230	addons.manager	DEBUG	Completed startup sequence
+1439421457250	addons.xpi-utils	DEBUG	Starting async load of XPI database /var/folders/zz/zyxvpxvq6csfxvn_n00000s4000069/T/anonymous1029955920239933705webdriver-profile/extensions.json
 *** Blocklist::_loadBlocklistFromFile: blocklist is disabled
-1439417609042	addons.manager	DEBUG	Starting provider: &lt;unnamed-provider&gt;
-1439417609042	addons.manager	DEBUG	Registering shutdown blocker for &lt;unnamed-provider&gt;
-1439417609042	addons.manager	DEBUG	Provider finished startup: &lt;unnamed-provider&gt;
-1439417609133	addons.xpi-utils	DEBUG	Async JSON file read took 0 MS
-1439417609133	addons.xpi-utils	DEBUG	Finished async read of XPI database, parsing...
-1439417609134	addons.xpi-utils	DEBUG	Successfully read XPI database
-1439417609221	addons.manager	DEBUG	Starting provider: PreviousExperimentProvider
-1439417609221	addons.manager	DEBUG	Registering shutdown blocker for PreviousExperimentProvider
-1439417609221	addons.manager	DEBUG	Provider finished startup: PreviousExperimentProvider
-JavaScript error: file:///var/folders/zz/zyxvpxvq6csfxvn_n00000s4000069/T/anonymous720989432340230290webdriver-profile/extensions/fxdriver@googlecode.com/components/driver-component.js, line 11487: TypeError: this.server_ is undefined
+1439421457348	addons.manager	DEBUG	Starting provider: &lt;unnamed-provider&gt;
+1439421457348	addons.manager	DEBUG	Registering shutdown blocker for &lt;unnamed-provider&gt;
+1439421457348	addons.manager	DEBUG	Provider finished startup: &lt;unnamed-provider&gt;
+1439421457428	addons.xpi-utils	DEBUG	Async JSON file read took 0 MS
+1439421457428	addons.xpi-utils	DEBUG	Finished async read of XPI database, parsing...
+1439421457429	addons.xpi-utils	DEBUG	Successfully read XPI database
+1439421457494	addons.manager	DEBUG	Starting provider: PreviousExperimentProvider
+1439421457494	addons.manager	DEBUG	Registering shutdown blocker for PreviousExperimentProvider
+1439421457495	addons.manager	DEBUG	Provider finished startup: PreviousExperimentProvider
+JavaScript error: file:///var/folders/zz/zyxvpxvq6csfxvn_n00000s4000069/T/anonymous1029955920239933705webdriver-profile/extensions/fxdriver@googlecode.com/components/driver-component.js, line 11487: TypeError: this.server_ is undefined
 JavaScript error: chrome://fxdriver/content/server.js, line 38: NS_ERROR_XPC_CI_RETURNED_FAILURE: Component returned failure code: 0x80570015 (NS_ERROR_XPC_CI_RETURNED_FAILURE) [nsIJSCID.createInstance]
 
 	at org.openqa.selenium.firefox.internal.NewProfileExtensionConnection.start(NewProfileExtensionConnection.java:118)
@@ -325,7 +321,7 @@ JavaScript error: chrome://fxdriver/content/server.js, line 38: NS_ERROR_XPC_CI_
 </failure>
     <failure message="java.lang.NullPointerException" type="java.lang.NullPointerException">java.lang.NullPointerException
 	at org.fluentlenium.core.Fluent.goTo(Fluent.java:336)
-	at RPSGameFLTest.isResultDisplayed(RPSGameFLTest.java:26)
+	at RPSGameFLTest.isResultDisplayed(RPSGameFLTest.java:29)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -381,44 +377,42 @@ JavaScript error: chrome://fxdriver/content/server.js, line 38: NS_ERROR_XPC_CI_
   <system-err><![CDATA[[Thread-4] INFO spark.webserver.SparkServer - == Spark has ignited ...
 [Thread-4] INFO spark.webserver.SparkServer - >> Listening on 0.0.0.0:4567
 [Thread-4] INFO org.eclipse.jetty.server.Server - jetty-9.0.2.v20130417
-[Thread-4] INFO org.eclipse.jetty.server.ServerConnector - Started ServerConnector@3e42a148{HTTP/1.1}{0.0.0.0:4567}
+[Thread-4] INFO org.eclipse.jetty.server.ServerConnector - Started ServerConnector@4fdbd73{HTTP/1.1}{0.0.0.0:4567}
 org.openqa.selenium.firefox.NotConnectedException: Unable to connect to host 127.0.0.1 on port 7055 after 45000 ms. Firefox console output:
-1839	addons.xpi	DEBUG	checkForChanges
-1439417561839	addons.xpi	DEBUG	Loaded add-on state from prefs: {"app-profile":{"fxdriver@googlecode.com":{"d":"/var/folders/zz/zyxvpxvq6csfxvn_n00000s4000069/T/anonymous835883968194593064webdriver-profile/extensions/fxdriver@googlecode.com","e":true,"v":"2.44.0","st":1439417559000,"mt":1439417559000}},"app-global":{"{972ce4c6-7e08-4474-a285-3208198ce6fd}":{"d":"/Applications/Firefox.app/Contents/Resources/browser/extensions/{972ce4c6-7e08-4474-a285-3208198ce6fd}","e":true,"v":"40.0","st":1438968590000,"mt":1438966083000}}}
-1439417561839	addons.xpi	DEBUG	getModTime: Recursive scan of fxdriver@googlecode.com
-1439417561841	addons.xpi	DEBUG	getModTime: Recursive scan of {972ce4c6-7e08-4474-a285-3208198ce6fd}
-1439417561842	addons.xpi	DEBUG	getInstallState changed: false, state: {"app-profile":{"fxdriver@googlecode.com":{"d":"/var/folders/zz/zyxvpxvq6csfxvn_n00000s4000069/T/anonymous835883968194593064webdriver-profile/extensions/fxdriver@googlecode.com","e":true,"v":"2.44.0","st":1439417559000,"mt":1439417559000}},"app-global":{"{972ce4c6-7e08-4474-a285-3208198ce6fd}":{"d":"/Applications/Firefox.app/Contents/Resources/browser/extensions/{972ce4c6-7e08-4474-a285-3208198ce6fd}","e":true,"v":"40.0","st":1438968590000,"mt":1438966083000}}}
-1439417561842	addons.xpi	DEBUG	No changes found
-1439417561846	addons.manager	DEBUG	Registering shutdown blocker for XPIProvider
-1439417561847	addons.manager	DEBUG	Provider finished startup: XPIProvider
-1439417561847	addons.manager	DEBUG	Starting provider: LightweightThemeManager
-1439417561847	addons.manager	DEBUG	Registering shutdown blocker for LightweightThemeManager
-1439417561847	addons.manager	DEBUG	Provider finished startup: LightweightThemeManager
-1439417561848	addons.manager	DEBUG	Starting provider: GMPProvider
-1439417561850	addons.manager	DEBUG	Registering shutdown blocker for GMPProvider
-1439417561851	addons.manager	DEBUG	Provider finished startup: GMPProvider
-1439417561851	addons.manager	DEBUG	Starting provider: PluginProvider
-1439417561851	addons.manager	DEBUG	Registering shutdown blocker for PluginProvider
-1439417561851	addons.manager	DEBUG	Provider finished startup: PluginProvider
-1439417561851	addons.manager	DEBUG	Completed startup sequence
-1439417561873	addons.xpi-utils	DEBUG	Starting async load of XPI database /var/folders/zz/zyxvpxvq6csfxvn_n00000s4000069/T/anonymous835883968194593064webdriver-profile/extensions.json
+ not a valid add-on ID: /var/folders/zz/zyxvpxvq6csfxvn_n00000s4000069/T/anonymous8426637167567820994webdriver-profile/extensions/webdriver-staging
+1439421410992	addons.xpi	INFO	Mapping {972ce4c6-7e08-4474-a285-3208198ce6fd} to /Applications/Firefox.app/Contents/Resources/browser/extensions/{972ce4c6-7e08-4474-a285-3208198ce6fd}
+1439421410992	addons.xpi	DEBUG	Skipping unavailable install location app-system-share
+1439421410993	addons.xpi	DEBUG	checkForChanges
+1439421410993	addons.xpi	DEBUG	Loaded add-on state from prefs: {"app-profile":{"fxdriver@googlecode.com":{"d":"/var/folders/zz/zyxvpxvq6csfxvn_n00000s4000069/T/anonymous8426637167567820994webdriver-profile/extensions/fxdriver@googlecode.com","e":true,"v":"2.44.0","st":1439421409000,"mt":1439421409000}},"app-global":{"{972ce4c6-7e08-4474-a285-3208198ce6fd}":{"d":"/Applications/Firefox.app/Contents/Resources/browser/extensions/{972ce4c6-7e08-4474-a285-3208198ce6fd}","e":true,"v":"40.0","st":1438968590000,"mt":1438966083000}}}
+1439421410994	addons.xpi	DEBUG	getModTime: Recursive scan of fxdriver@googlecode.com
+1439421410996	addons.xpi	DEBUG	getModTime: Recursive scan of {972ce4c6-7e08-4474-a285-3208198ce6fd}
+1439421410996	addons.xpi	DEBUG	getInstallState changed: false, state: {"app-profile":{"fxdriver@googlecode.com":{"d":"/var/folders/zz/zyxvpxvq6csfxvn_n00000s4000069/T/anonymous8426637167567820994webdriver-profile/extensions/fxdriver@googlecode.com","e":true,"v":"2.44.0","st":1439421409000,"mt":1439421409000}},"app-global":{"{972ce4c6-7e08-4474-a285-3208198ce6fd}":{"d":"/Applications/Firefox.app/Contents/Resources/browser/extensions/{972ce4c6-7e08-4474-a285-3208198ce6fd}","e":true,"v":"40.0","st":1438968590000,"mt":1438966083000}}}
+1439421410997	addons.xpi	DEBUG	No changes found
+1439421411001	addons.manager	DEBUG	Registering shutdown blocker for XPIProvider
+1439421411001	addons.manager	DEBUG	Provider finished startup: XPIProvider
+1439421411001	addons.manager	DEBUG	Starting provider: LightweightThemeManager
+1439421411001	addons.manager	DEBUG	Registering shutdown blocker for LightweightThemeManager
+1439421411001	addons.manager	DEBUG	Provider finished startup: LightweightThemeManager
+1439421411002	addons.manager	DEBUG	Starting provider: GMPProvider
+1439421411004	addons.manager	DEBUG	Registering shutdown blocker for GMPProvider
+1439421411005	addons.manager	DEBUG	Provider finished startup: GMPProvider
+1439421411005	addons.manager	DEBUG	Starting provider: PluginProvider
+1439421411005	addons.manager	DEBUG	Registering shutdown blocker for PluginProvider
+1439421411005	addons.manager	DEBUG	Provider finished startup: PluginProvider
+1439421411005	addons.manager	DEBUG	Completed startup sequence
+1439421411027	addons.xpi-utils	DEBUG	Starting async load of XPI database /var/folders/zz/zyxvpxvq6csfxvn_n00000s4000069/T/anonymous8426637167567820994webdriver-profile/extensions.json
 *** Blocklist::_loadBlocklistFromFile: blocklist is disabled
-1439417561970	addons.manager	DEBUG	Starting provider: <unnamed-provider>
-1439417561970	addons.manager	DEBUG	Registering shutdown blocker for <unnamed-provider>
-1439417561970	addons.manager	DEBUG	Provider finished startup: <unnamed-provider>
-1439417562064	addons.xpi-utils	DEBUG	Async JSON file read took 0 MS
-1439417562064	addons.xpi-utils	DEBUG	Finished async read of XPI database, parsing...
-1439417562065	addons.xpi-utils	DEBUG	Successfully read XPI database
-1439417562128	addons.manager	DEBUG	Starting provider: PreviousExperimentProvider
-1439417562128	addons.manager	DEBUG	Registering shutdown blocker for PreviousExperimentProvider
-1439417562128	addons.manager	DEBUG	Provider finished startup: PreviousExperimentProvider
-JavaScript error: file:///var/folders/zz/zyxvpxvq6csfxvn_n00000s4000069/T/anonymous835883968194593064webdriver-profile/extensions/fxdriver@googlecode.com/components/driver-component.js, line 11487: TypeError: this.server_ is undefined
+1439421411125	addons.manager	DEBUG	Starting provider: <unnamed-provider>
+1439421411125	addons.manager	DEBUG	Registering shutdown blocker for <unnamed-provider>
+1439421411125	addons.manager	DEBUG	Provider finished startup: <unnamed-provider>
+1439421411208	addons.xpi-utils	DEBUG	Async JSON file read took 0 MS
+1439421411208	addons.xpi-utils	DEBUG	Finished async read of XPI database, parsing...
+1439421411209	addons.xpi-utils	DEBUG	Successfully read XPI database
+1439421411272	addons.manager	DEBUG	Starting provider: PreviousExperimentProvider
+1439421411272	addons.manager	DEBUG	Registering shutdown blocker for PreviousExperimentProvider
+1439421411273	addons.manager	DEBUG	Provider finished startup: PreviousExperimentProvider
+JavaScript error: file:///var/folders/zz/zyxvpxvq6csfxvn_n00000s4000069/T/anonymous8426637167567820994webdriver-profile/extensions/fxdriver@googlecode.com/components/driver-component.js, line 11487: TypeError: this.server_ is undefined
 JavaScript error: chrome://fxdriver/content/server.js, line 38: NS_ERROR_XPC_CI_RETURNED_FAILURE: Component returned failure code: 0x80570015 (NS_ERROR_XPC_CI_RETURNED_FAILURE) [nsIJSCID.createInstance]
-JavaScript error: resource:///modules/UITour.jsm, line 385: TypeError: window is null
-JavaScript error: resource:///modules/UITour.jsm, line 385: TypeError: window is null
-JavaScript error: resource:///modules/UITour.jsm, line 385: TypeError: window is null
-JavaScript error: resource:///modules/UITour.jsm, line 385: TypeError: window is null
-JavaScript error: resource:///modules/UITour.jsm, line 385: TypeError: window is null
 
 	at org.openqa.selenium.firefox.internal.NewProfileExtensionConnection.start(NewProfileExtensionConnection.java:118)
 	at org.openqa.selenium.firefox.FirefoxDriver.startClient(FirefoxDriver.java:246)
@@ -474,39 +468,39 @@ JavaScript error: resource:///modules/UITour.jsm, line 385: TypeError: window is
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
 	at java.lang.Thread.run(Thread.java:745)
 org.openqa.selenium.firefox.NotConnectedException: Unable to connect to host 127.0.0.1 on port 7055 after 45000 ms. Firefox console output:
-me is not a valid add-on ID: /var/folders/zz/zyxvpxvq6csfxvn_n00000s4000069/T/anonymous720989432340230290webdriver-profile/extensions/webdriver-staging
-1439417608906	addons.xpi	INFO	Mapping {972ce4c6-7e08-4474-a285-3208198ce6fd} to /Applications/Firefox.app/Contents/Resources/browser/extensions/{972ce4c6-7e08-4474-a285-3208198ce6fd}
-1439417608906	addons.xpi	DEBUG	Skipping unavailable install location app-system-share
-1439417608907	addons.xpi	DEBUG	checkForChanges
-1439417608907	addons.xpi	DEBUG	Loaded add-on state from prefs: {"app-profile":{"fxdriver@googlecode.com":{"d":"/var/folders/zz/zyxvpxvq6csfxvn_n00000s4000069/T/anonymous720989432340230290webdriver-profile/extensions/fxdriver@googlecode.com","e":true,"v":"2.44.0","st":1439417606000,"mt":1439417606000}},"app-global":{"{972ce4c6-7e08-4474-a285-3208198ce6fd}":{"d":"/Applications/Firefox.app/Contents/Resources/browser/extensions/{972ce4c6-7e08-4474-a285-3208198ce6fd}","e":true,"v":"40.0","st":1438968590000,"mt":1438966083000}}}
-1439417608907	addons.xpi	DEBUG	getModTime: Recursive scan of fxdriver@googlecode.com
-1439417608910	addons.xpi	DEBUG	getModTime: Recursive scan of {972ce4c6-7e08-4474-a285-3208198ce6fd}
-1439417608910	addons.xpi	DEBUG	getInstallState changed: false, state: {"app-profile":{"fxdriver@googlecode.com":{"d":"/var/folders/zz/zyxvpxvq6csfxvn_n00000s4000069/T/anonymous720989432340230290webdriver-profile/extensions/fxdriver@googlecode.com","e":true,"v":"2.44.0","st":1439417606000,"mt":1439417606000}},"app-global":{"{972ce4c6-7e08-4474-a285-3208198ce6fd}":{"d":"/Applications/Firefox.app/Contents/Resources/browser/extensions/{972ce4c6-7e08-4474-a285-3208198ce6fd}","e":true,"v":"40.0","st":1438968590000,"mt":1438966083000}}}
-1439417608911	addons.xpi	DEBUG	No changes found
-1439417608915	addons.manager	DEBUG	Registering shutdown blocker for XPIProvider
-1439417608915	addons.manager	DEBUG	Provider finished startup: XPIProvider
-1439417608915	addons.manager	DEBUG	Starting provider: LightweightThemeManager
-1439417608915	addons.manager	DEBUG	Registering shutdown blocker for LightweightThemeManager
-1439417608916	addons.manager	DEBUG	Provider finished startup: LightweightThemeManager
-1439417608916	addons.manager	DEBUG	Starting provider: GMPProvider
-1439417608919	addons.manager	DEBUG	Registering shutdown blocker for GMPProvider
-1439417608919	addons.manager	DEBUG	Provider finished startup: GMPProvider
-1439417608919	addons.manager	DEBUG	Starting provider: PluginProvider
-1439417608919	addons.manager	DEBUG	Registering shutdown blocker for PluginProvider
-1439417608920	addons.manager	DEBUG	Provider finished startup: PluginProvider
-1439417608920	addons.manager	DEBUG	Completed startup sequence
-1439417608943	addons.xpi-utils	DEBUG	Starting async load of XPI database /var/folders/zz/zyxvpxvq6csfxvn_n00000s4000069/T/anonymous720989432340230290webdriver-profile/extensions.json
+ not a valid add-on ID: /var/folders/zz/zyxvpxvq6csfxvn_n00000s4000069/T/anonymous1029955920239933705webdriver-profile/extensions/webdriver-staging
+1439421457218	addons.xpi	INFO	Mapping {972ce4c6-7e08-4474-a285-3208198ce6fd} to /Applications/Firefox.app/Contents/Resources/browser/extensions/{972ce4c6-7e08-4474-a285-3208198ce6fd}
+1439421457218	addons.xpi	DEBUG	Skipping unavailable install location app-system-share
+1439421457218	addons.xpi	DEBUG	checkForChanges
+1439421457219	addons.xpi	DEBUG	Loaded add-on state from prefs: {"app-profile":{"fxdriver@googlecode.com":{"d":"/var/folders/zz/zyxvpxvq6csfxvn_n00000s4000069/T/anonymous1029955920239933705webdriver-profile/extensions/fxdriver@googlecode.com","e":true,"v":"2.44.0","st":1439421456000,"mt":1439421456000}},"app-global":{"{972ce4c6-7e08-4474-a285-3208198ce6fd}":{"d":"/Applications/Firefox.app/Contents/Resources/browser/extensions/{972ce4c6-7e08-4474-a285-3208198ce6fd}","e":true,"v":"40.0","st":1438968590000,"mt":1438966083000}}}
+1439421457219	addons.xpi	DEBUG	getModTime: Recursive scan of fxdriver@googlecode.com
+1439421457221	addons.xpi	DEBUG	getModTime: Recursive scan of {972ce4c6-7e08-4474-a285-3208198ce6fd}
+1439421457221	addons.xpi	DEBUG	getInstallState changed: false, state: {"app-profile":{"fxdriver@googlecode.com":{"d":"/var/folders/zz/zyxvpxvq6csfxvn_n00000s4000069/T/anonymous1029955920239933705webdriver-profile/extensions/fxdriver@googlecode.com","e":true,"v":"2.44.0","st":1439421456000,"mt":1439421456000}},"app-global":{"{972ce4c6-7e08-4474-a285-3208198ce6fd}":{"d":"/Applications/Firefox.app/Contents/Resources/browser/extensions/{972ce4c6-7e08-4474-a285-3208198ce6fd}","e":true,"v":"40.0","st":1438968590000,"mt":1438966083000}}}
+1439421457222	addons.xpi	DEBUG	No changes found
+1439421457225	addons.manager	DEBUG	Registering shutdown blocker for XPIProvider
+1439421457226	addons.manager	DEBUG	Provider finished startup: XPIProvider
+1439421457226	addons.manager	DEBUG	Starting provider: LightweightThemeManager
+1439421457226	addons.manager	DEBUG	Registering shutdown blocker for LightweightThemeManager
+1439421457226	addons.manager	DEBUG	Provider finished startup: LightweightThemeManager
+1439421457226	addons.manager	DEBUG	Starting provider: GMPProvider
+1439421457229	addons.manager	DEBUG	Registering shutdown blocker for GMPProvider
+1439421457229	addons.manager	DEBUG	Provider finished startup: GMPProvider
+1439421457230	addons.manager	DEBUG	Starting provider: PluginProvider
+1439421457230	addons.manager	DEBUG	Registering shutdown blocker for PluginProvider
+1439421457230	addons.manager	DEBUG	Provider finished startup: PluginProvider
+1439421457230	addons.manager	DEBUG	Completed startup sequence
+1439421457250	addons.xpi-utils	DEBUG	Starting async load of XPI database /var/folders/zz/zyxvpxvq6csfxvn_n00000s4000069/T/anonymous1029955920239933705webdriver-profile/extensions.json
 *** Blocklist::_loadBlocklistFromFile: blocklist is disabled
-1439417609042	addons.manager	DEBUG	Starting provider: <unnamed-provider>
-1439417609042	addons.manager	DEBUG	Registering shutdown blocker for <unnamed-provider>
-1439417609042	addons.manager	DEBUG	Provider finished startup: <unnamed-provider>
-1439417609133	addons.xpi-utils	DEBUG	Async JSON file read took 0 MS
-1439417609133	addons.xpi-utils	DEBUG	Finished async read of XPI database, parsing...
-1439417609134	addons.xpi-utils	DEBUG	Successfully read XPI database
-1439417609221	addons.manager	DEBUG	Starting provider: PreviousExperimentProvider
-1439417609221	addons.manager	DEBUG	Registering shutdown blocker for PreviousExperimentProvider
-1439417609221	addons.manager	DEBUG	Provider finished startup: PreviousExperimentProvider
-JavaScript error: file:///var/folders/zz/zyxvpxvq6csfxvn_n00000s4000069/T/anonymous720989432340230290webdriver-profile/extensions/fxdriver@googlecode.com/components/driver-component.js, line 11487: TypeError: this.server_ is undefined
+1439421457348	addons.manager	DEBUG	Starting provider: <unnamed-provider>
+1439421457348	addons.manager	DEBUG	Registering shutdown blocker for <unnamed-provider>
+1439421457348	addons.manager	DEBUG	Provider finished startup: <unnamed-provider>
+1439421457428	addons.xpi-utils	DEBUG	Async JSON file read took 0 MS
+1439421457428	addons.xpi-utils	DEBUG	Finished async read of XPI database, parsing...
+1439421457429	addons.xpi-utils	DEBUG	Successfully read XPI database
+1439421457494	addons.manager	DEBUG	Starting provider: PreviousExperimentProvider
+1439421457494	addons.manager	DEBUG	Registering shutdown blocker for PreviousExperimentProvider
+1439421457495	addons.manager	DEBUG	Provider finished startup: PreviousExperimentProvider
+JavaScript error: file:///var/folders/zz/zyxvpxvq6csfxvn_n00000s4000069/T/anonymous1029955920239933705webdriver-profile/extensions/fxdriver@googlecode.com/components/driver-component.js, line 11487: TypeError: this.server_ is undefined
 JavaScript error: chrome://fxdriver/content/server.js, line 38: NS_ERROR_XPC_CI_RETURNED_FAILURE: Component returned failure code: 0x80570015 (NS_ERROR_XPC_CI_RETURNED_FAILURE) [nsIJSCID.createInstance]
 
 	at org.openqa.selenium.firefox.internal.NewProfileExtensionConnection.start(NewProfileExtensionConnection.java:118)
@@ -563,8 +557,8 @@ JavaScript error: chrome://fxdriver/content/server.js, line 38: NS_ERROR_XPC_CI_
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
 	at java.lang.Thread.run(Thread.java:745)
 [Test worker] INFO spark.webserver.SparkServer - >>> Spark shutting down ...
-[Test worker] INFO org.eclipse.jetty.server.Server - Graceful shutdown org.eclipse.jetty.server.Server@47bb4c88 by 
-[Test worker] INFO org.eclipse.jetty.server.ServerConnector - Stopped ServerConnector@3e42a148{HTTP/1.1}{0.0.0.0:4567}
+[Test worker] INFO org.eclipse.jetty.server.Server - Graceful shutdown org.eclipse.jetty.server.Server@3d6c42fb by 
+[Test worker] INFO org.eclipse.jetty.server.ServerConnector - Stopped ServerConnector@4fdbd73{HTTP/1.1}{0.0.0.0:4567}
 [Test worker] INFO spark.webserver.SparkServer - done
 ]]></system-err>
 </testsuite>

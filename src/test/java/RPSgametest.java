@@ -1,11 +1,29 @@
+
+
 import org.junit.*;
+import org.fluentlenium.adapter.FluentTest;
+import org.junit.ClassRule;
+import org.junit.Test;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.htmlunit.HtmlUnitDriver;
 import static org.junit.Assert.*;
 
-public class RPSgametest {
+
+import static org.assertj.core.api.Assertions.assertThat;
+
+public class RPSgametest extends FluentTest{
+  public WebDriver webDriver = new HtmlUnitDriver();
+  public WebDriver getDefailtDriver(){
+    return webDriver;
+  }
+
+  @ClassRule
+  public static ServerRule server = new ServerRule();
+
 
   @Test
   public void checkWinner_userRockBeatsScissors_String (){
-    String test = "User Wins";
+    String test = "Yaaay! User Wins";
     assertEquals(test, RPSgame.checkWinner("Rock", "Scissors"));
   }
 
@@ -23,7 +41,7 @@ public class RPSgametest {
 
   @Test
   public void checkWinner_userScissorsBeatsPaper_String () {
-    String test = "User Wins";
+    String test = "Yaaay! User Wins";
     assertEquals(test, RPSgame.checkWinner("Scissors", "Paper"));
   }
 
@@ -41,7 +59,7 @@ public class RPSgametest {
 
   @Test
   public void checkWinner_userPaperBestsRock_String() {
-    String test = "User Wins";
+    String test = "Yaaay! User Wins";
     assertEquals(test, RPSgame.checkWinner("Paper", "Rock"));
   }
 
@@ -57,4 +75,17 @@ public class RPSgametest {
     assertEquals(test, RPSgame.checkWinner("Paper", "Paper"));
   }
 
+  @Test
+  public void rootTest() {
+    goTo("http://localhost:4567/");
+    assertThat(pageSource()).contains("Play our Awesome");
+  }
+
+  @Test
+  public void isResultDisplayed() {
+    goTo("http://localhost:4567/");
+    fill("#userinput").with("Paper");
+    submit("#submit-button");
+    assertThat(pageSource()).contains("result is");
+  }
 }
