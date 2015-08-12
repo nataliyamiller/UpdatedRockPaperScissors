@@ -1,0 +1,14 @@
+apply plugin: 'java'
+apply plugin: 'application'
+
+archivesBaseName = "RPSGame"
+version = '1.0'
+mainClassName = "RPSgame"
+
+repositories {
+ mavenCentral()
+}
+
+dependencies {
+  testCompile group: 'junit', name: 'junit', version: '4.+'
+}
