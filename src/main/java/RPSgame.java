@@ -7,10 +7,15 @@ import static spark.Spark.*;
 
 public class RPSgame {
   public static void main (String[] args){
+
+    String result;
+    Random myRandomGenerator = new Random();
+    Integer randomNumber = myRandomGenerator.nextInt(2);
+    String computerGuess = makeComputerGuess(randomNumber);
     String layout = "templates/layout.vtl";
 
     get("/", (request, response) -> {
-      Map<String, Object> model = New HashMap<String, Object>();
+      Map<String, Object> model = new HashMap<String, Object>();
       model.put("template", "templates/home.vtl");
       return new ModelAndView(model, layout);
     }, new VelocityTemplateEngine());
@@ -20,19 +25,16 @@ public class RPSgame {
       model.put("template", "templates/detector.vtl");
 
       String userInput = request.queryParams("user input");
-      Random myRandomGenerator = new Random();
-      Integer randomNumber = myRandomGenerator.nextInt(2);
-      String computerGuess = makeComputerGuess(randomNumber);
 
 
       String checkWinner = checkWinner(userInput, computerGuess);
-    })
+      return new ModelAndView(model, layout);
+    }, new VelocityTemplateEngine());
 
   }
 
-    String result;
 
-  public String makeComputerGuess(Integer randomNumber){
+  public static String makeComputerGuess(Integer randomNumber){
     if (randomNumber == 0){
       computerGuess = "Rock";
     } else if (randomNumber == 1) {
