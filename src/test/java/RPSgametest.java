@@ -45,4 +45,25 @@ public class RPSgametest {
     assertEquals(test, RPSgametest.checkWinner("Scissors", "Scissors"));
   }
 
+  @Test
+  public void checkWinner_userPaperBestsRock_String() {
+    RPSgame RPSgametest = new RPSgame();
+    String test = "User Wins";
+    assertEquals(test, RPSgametest.checkWinner("Paper", "Rock"));
+  }
+
+  @Test
+  public void checkWinner_userPaperLosesScissors_String () {
+    RPSgame RPSgametest = new RPSgame();
+    String test = "Computer Wins";
+    assertEquals(test, RPSgametest.checkWinner("Paper", "Scissors"));
+  }
+
+  @Test
+  public void checkWinner_userPaperTiesPaper_String (){
+    RPSgame RPSgametest = new RPSgame();
+    String test = "It's a Tie";
+    assertEquals(test, RPSgametest.checkWinner("Paper", "Paper"));
+  }
+
 }

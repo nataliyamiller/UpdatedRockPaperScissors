@@ -8,11 +8,8 @@ public class RPSgame {
 
       if (computerGuess == "Scissors"){
         result = "User Wins";
-
-
       } else if (computerGuess == "Paper") {
         result = "Computer Wins";
-
       } else {
       result = "It's a Tie";
       }
@@ -26,7 +23,18 @@ public class RPSgame {
     } else {
       result = "It's a Tie";
     }
-    }
+
+
+    } else {
+      if (computerGuess == "Rock"){
+        result = "User Wins";
+      } else if (computerGuess == "Scissors") {
+        result = "Computer Wins";
+      } else {
+        result = "It's a Tie";
+      }
+
+  }
     return result;
   }
 }

@@ -1,12 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="RPSgametest" tests="6" skipped="0" failures="0" errors="0" timestamp="2015-08-12T17:27:59" hostname="epicodus-107.local" time="0.002">
+<testsuite name="RPSgametest" tests="9" skipped="0" failures="0" errors="0" timestamp="2015-08-12T17:40:10" hostname="epicodus-107.local" time="0.003">
   <properties/>
-  <testcase name="checkWinner_userScissorsLosesRock_String" classname="RPSgametest" time="0.001"/>
+  <testcase name="checkWinner_userPaperLosesScissors_String" classname="RPSgametest" time="0.001"/>
+  <testcase name="checkWinner_userScissorsLosesRock_String" classname="RPSgametest" time="0.0"/>
   <testcase name="checkWinner_userRockBeatsScissors_String" classname="RPSgametest" time="0.0"/>
   <testcase name="checkWinner_userRockLosesPaper_String" classname="RPSgametest" time="0.0"/>
   <testcase name="checkWinner_userScissorsBeatsPaper_String" classname="RPSgametest" time="0.0"/>
+  <testcase name="checkWinner_userPaperBestsRock_String" classname="RPSgametest" time="0.0"/>
   <testcase name="checkWinner_userScissorsTiesScissors_String" classname="RPSgametest" time="0.0"/>
   <testcase name="checkWinner_userRockTiesRock_String" classname="RPSgametest" time="0.0"/>
+  <testcase name="checkWinner_userPaperTiesPaper_String" classname="RPSgametest" time="0.0"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>
