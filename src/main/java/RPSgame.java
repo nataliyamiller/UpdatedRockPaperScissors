@@ -56,10 +56,11 @@ public class RPSgame {
 
   public static String checkWinner (String userGuess, String computerGuess){
     String result;
+    String sentence = "Yaaay!";
     if (userGuess == "Rock"){
 
       if (computerGuess == "Scissors"){
-        result = "User Wins";
+        result = String.format("%s User Wins", sentence);
       } else if (computerGuess == "Paper") {
         result = "Computer Wins";
       } else {
@@ -69,7 +70,7 @@ public class RPSgame {
 
     } else if (userGuess == "Scissors") {
       if (computerGuess == "Paper"){
-      result = "User Wins";
+      result = String.format("%s User Wins", sentence);
     } else if (computerGuess == "Rock"){
       result = "Computer Wins";
     } else {
@@ -79,7 +80,7 @@ public class RPSgame {
 
     } else {
       if (computerGuess == "Rock"){
-        result = "User Wins";
+        result = String.format("%s User Wins", sentence);
       } else if (computerGuess == "Scissors") {
         result = "Computer Wins";
       } else {
