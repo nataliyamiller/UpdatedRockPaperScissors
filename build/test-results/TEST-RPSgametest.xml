@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="RPSgametest" tests="9" skipped="0" failures="0" errors="0" timestamp="2015-08-12T17:40:10" hostname="epicodus-107.local" time="0.003">
+<testsuite name="RPSgametest" tests="9" skipped="0" failures="0" errors="0" timestamp="2015-08-12T17:54:18" hostname="epicodus-107.local" time="0.003">
   <properties/>
   <testcase name="checkWinner_userPaperLosesScissors_String" classname="RPSgametest" time="0.001"/>
   <testcase name="checkWinner_userScissorsLosesRock_String" classname="RPSgametest" time="0.0"/>

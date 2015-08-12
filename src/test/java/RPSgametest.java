@@ -5,65 +5,56 @@ public class RPSgametest {
 
   @Test
   public void checkWinner_userRockBeatsScissors_String (){
-    RPSgame RPSgametest = new RPSgame();
     String test = "User Wins";
-    assertEquals(test, RPSgametest.checkWinner("Rock", "Scissors"));
+    assertEquals(test, RPSgame.checkWinner("Rock", "Scissors"));
   }
 
   @Test
   public void checkWinner_userRockLosesPaper_String () {
-    RPSgame RPSgametest = new RPSgame();
     String test = "Computer Wins";
-    assertEquals(test, RPSgametest.checkWinner("Rock", "Paper"));
+    assertEquals(test, RPSgame.checkWinner("Rock", "Paper"));
   }
 
   @Test
   public void checkWinner_userRockTiesRock_String(){
-    RPSgame RPSgametest = new RPSgame();
     String test = "It's a Tie";
-    assertEquals(test, RPSgametest.checkWinner("Rock","Rock"));
+    assertEquals(test, RPSgame.checkWinner("Rock","Rock"));
   }
 
   @Test
   public void checkWinner_userScissorsBeatsPaper_String () {
-    RPSgame RPSgametest = new RPSgame();
     String test = "User Wins";
-    assertEquals(test, RPSgametest.checkWinner("Scissors", "Paper"));
+    assertEquals(test, RPSgame.checkWinner("Scissors", "Paper"));
   }
 
   @Test
   public void checkWinner_userScissorsLosesRock_String() {
-    RPSgame RPSgametest = new RPSgame();
     String test = "Computer Wins";
-    assertEquals(test, RPSgametest.checkWinner("Scissors", "Rock"));
+    assertEquals(test, RPSgame.checkWinner("Scissors", "Rock"));
   }
 
   @Test
   public void checkWinner_userScissorsTiesScissors_String() {
-    RPSgame RPSgametest = new RPSgame();
     String test = "It's a Tie";
-    assertEquals(test, RPSgametest.checkWinner("Scissors", "Scissors"));
+    assertEquals(test, RPSgame.checkWinner("Scissors", "Scissors"));
   }
 
   @Test
   public void checkWinner_userPaperBestsRock_String() {
-    RPSgame RPSgametest = new RPSgame();
     String test = "User Wins";
-    assertEquals(test, RPSgametest.checkWinner("Paper", "Rock"));
+    assertEquals(test, RPSgame.checkWinner("Paper", "Rock"));
   }
 
   @Test
   public void checkWinner_userPaperLosesScissors_String () {
-    RPSgame RPSgametest = new RPSgame();
     String test = "Computer Wins";
-    assertEquals(test, RPSgametest.checkWinner("Paper", "Scissors"));
+    assertEquals(test, RPSgame.checkWinner("Paper", "Scissors"));
   }
 
   @Test
-  public void checkWinner_userPaperTiesPaper_String (){
-    RPSgame RPSgametest = new RPSgame();
+  public void checkWinner_userPaperTiesPaper_String () {
     String test = "It's a Tie";
-    assertEquals(test, RPSgametest.checkWinner("Paper", "Paper"));
+    assertEquals(test, RPSgame.checkWinner("Paper", "Paper"));
   }
 
 }
