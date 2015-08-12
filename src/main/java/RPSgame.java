@@ -13,7 +13,7 @@ public class RPSgame {
 
     get("/", (request, response) -> {
       Map<String, Object> model = new HashMap<String, Object>();
-      model.put("template", "templates/home.vtl");
+      model.put("template", "templates/form.vtl");
       return new ModelAndView(model, layout);
     }, new VelocityTemplateEngine());
 
@@ -21,14 +21,14 @@ public class RPSgame {
       Map<String, Object> model = new HashMap<String,Object>();
       model.put("template", "templates/detector.vtl");
 
-      String userGuess = request.queryParams("user input");
-      
+      String userGuess = request.queryParams("userinput");
+
       Random myRandomGenerator = new Random();
       Integer randomNumber = myRandomGenerator.nextInt(2);
       String computerGuess = makeComputerGuess(randomNumber);
       String result = checkWinner(userGuess, computerGuess);
 
-
+      model.put("result", result);
 
 
 
