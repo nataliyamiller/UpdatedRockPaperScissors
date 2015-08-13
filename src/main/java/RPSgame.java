@@ -24,7 +24,7 @@ public class RPSgame {
       String userGuess = request.queryParams("userinput");
 
       Random myRandomGenerator = new Random();
-      Integer randomNumber = myRandomGenerator.nextInt(2);
+      Integer randomNumber = myRandomGenerator.nextInt(3);
       String computerGuess = makeComputerGuess(randomNumber);
       String result = checkWinner(userGuess, computerGuess);
 
